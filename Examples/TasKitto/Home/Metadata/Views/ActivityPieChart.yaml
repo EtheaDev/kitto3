@@ -1,0 +1,43 @@
+﻿Type: Data
+DisplayLabel: _(Pie Chart)
+Controller: List
+  EastController: GridPanel
+    Width: 400
+  CenterController: ChartPanel
+    Chart:
+      Type: Polar
+      Theme: Muted
+      Sprites:
+        Sprite:
+          #Type: Text
+          X: 20
+          Y: 35
+          Text: _(Activities By Type)
+          FontSize: 22
+      Series:
+        Series:
+          Type: Pie3D
+          AngleField: DURATION
+          Label:
+            Field: TYPE_NAME
+            CalloutLine:
+              Length: 60
+              Width: 2
+          Highlight:
+            Margin: 40
+          Title: _(Duration)
+          Thickness: 50
+          Distortion: 60
+          Bevel: 20
+          Donut: 50
+      Legend:
+        Docked: left
+        Padding: 10
+        Toggleable: True
+      InnerPadding: 20
+      InsetPadding: 50
+
+MainTable:
+  IsReadOnly: True
+  Model: ACTIVITY_BY_TYPE
+ImageName: chart_pie

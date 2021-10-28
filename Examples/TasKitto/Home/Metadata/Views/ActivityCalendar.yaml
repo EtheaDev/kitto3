@@ -1,0 +1,12 @@
+﻿Type: Data
+DisplayLabel: _(Activity Calendar)
+Controller: List
+  CenterController: CalendarPanel
+MainTable:
+  Model: ACTIVITY_CALENDAR
+  Controller:
+    DateFieldName: ActivityDate
+  EditController:
+    Width: 600
+    Height: 400
+    CloneButton:

@@ -1,0 +1,32 @@
+﻿Type: Tree
+Folder: _(Tables)
+  View: Employees
+  View: Build AutoList
+    Model: OPERATOR_ROLE
+    DisplayLabel: Operator roles
+  View:
+    Type: Data
+    Controller: List
+      Width: 320
+      Height: 160
+    MainTable:
+      Model: ACTIVITY_TYPE
+Folder: _(Customers)
+  View: Customers
+  View: Projects
+Folder: _(Activities)
+  View: ActivityInput
+  View: ActivitiesByType
+  View: ActivityReport
+  View: ActivityCalendar
+Folder: _(Statistics)
+  View: ActivityPieChart
+  View: ActivityBarChart
+Folder: _(Maintenance)
+  View: Users
+    ImageName: user
+  View: UserForm
+  View:
+    Controller: ChangePassword
+  View:
+    Controller: Logout

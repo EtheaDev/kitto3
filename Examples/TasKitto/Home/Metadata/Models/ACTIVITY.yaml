@@ -1,0 +1,55 @@
+﻿ModelName: ACTIVITY
+ImageName: settings
+Fields:
+  ACTIVITY_ID: String(32) not null primary key
+    IsVisible: False
+    DefaultValue: %COMPACT_GUID%
+  DESCRIPTION: String(80) not null
+    DisplayWidth: 50
+    Hint: Insert the activity description
+  PHASE: Reference(PHASE) not null
+    Fields:
+      PHASE_ID:
+    Hint: Select Phase
+  EMPLOYEE: Reference(EMPLOYEE) not null
+    Fields:
+      EMPLOYEE_ID:
+    Hint: Search and select the Employee
+  ROLE: Reference(OPERATOR_ROLE) not null
+    Fields:
+      ROLE_ID:
+    Hint: Select the Role
+  TYPE: Reference(ACTIVITY_TYPE) not null
+    Fields:
+      TYPE_ID:
+    Hint: Select the Activity Type
+  ACTIVITY_DATE: Date not null
+    NotifyChange: True
+    Hint: Date
+  START_TIME: Time
+    NotifyChange: True
+    Hint: Start
+  END_TIME: Time
+    Hint: End
+  STATUS: String(12)
+    DisplayWidth: 6
+    Hint: Select status
+    AllowedValues:
+      Inserted: Inserted
+      Approved: Approved
+      Billed: Billed
+      NotBillable: Not Billable
+      Internal: Internal
+      Done: Done
+  DURATION: Float
+    DisplayWidth: 8
+    Expression: |
+      case
+        when ({Q}START_TIME is null) or ({Q}END_TIME is null) then 0
+        else CAST(DATEDIFF(millisecond, {Q}START_TIME, {Q}END_TIME) / CAST(3600000 AS FLOAT) AS DECIMAL(8,4))
+      end
+Rules:
+  EnforceRange:
+    From: START_TIME
+    To: END_TIME
+DefaultSorting: ACTIVITY.ACTIVITY_DATE DESC, ACTIVITY.START_TIME DESC

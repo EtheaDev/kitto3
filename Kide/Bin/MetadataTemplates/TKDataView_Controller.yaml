@@ -1,0 +1,18 @@
+﻿AllowClose: False
+CenterController:
+Filters:
+IsModal: True
+  Default: False
+WestController:
+NorthController:
+EastController:
+SouthController:
+Operation: Add
+Operation: Edit
+InplaceEditing: True
+  Default: False
+CenterView:
+EastView:
+NorthView:
+SouthView:
+WestView:

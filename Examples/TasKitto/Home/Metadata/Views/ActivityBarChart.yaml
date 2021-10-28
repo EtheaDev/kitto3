@@ -1,0 +1,35 @@
+﻿Type: Data
+DisplayLabel: _(Bar Chart)
+Controller: List
+
+  CenterController: ChartPanel
+    Chart:
+      Type: Cartesian
+      Axes:
+        Axis:
+          Position: Left
+          Title: _(Duration in minutes)
+        Axis:
+          Type: Category
+          Position: Bottom
+      Series:
+        Series:
+          Type: Bar
+          XField: TYPE_NAME
+          YField: DURATION
+          .DisplayName: _(Date)
+          .Style:
+            Color: 6709248
+          Highlight:
+            StrokeStyle: black
+            FillStyle: gold
+          Label:
+            Field: DURATION
+            Display: insideEnd
+  WestController: GridPanel
+    Width: 500
+
+MainTable:
+  IsReadOnly: True
+  Model: ACTIVITY_BY_TYPE
+ImageName: chart_bar

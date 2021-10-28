@@ -1,0 +1,18 @@
+﻿Type: Data
+Controller: List
+  Filters:
+    DisplayLabel: _(Search Hair Types)
+    Items:
+      FreeSearch: _(Free search)
+        ExpressionTemplate: (Hair.Hair_Color like '%{value}%')
+MainTable:
+  Model: Hair
+  Fields:
+    Hair_Id:
+    Hair_Color:
+  Controller:
+    PreventAdding: True
+    PreventDeleting: True
+  EditController:
+    Width: 400
+    Height: 200

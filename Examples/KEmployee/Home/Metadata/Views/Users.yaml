@@ -1,0 +1,10 @@
+﻿Type: Data
+
+Controller: List
+
+MainTable:
+  Model: KITTO_USERS
+
+  EditController:
+    Width: 400
+    Height: 220

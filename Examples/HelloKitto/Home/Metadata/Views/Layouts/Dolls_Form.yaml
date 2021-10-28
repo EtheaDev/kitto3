@@ -1,0 +1,19 @@
+﻿Row:
+  Field: Doll_Name
+    CharWidth: 20
+  Field: Date_Bought
+Row:
+  Field: Mom
+    CharWidth: 20
+  Field: Mom_Phone
+    CharWidth: 10
+    DisplayLabel: _(Mom's Phone)
+PageBreak: _(Characteristics)
+Row:
+  Field: Hair
+  Field: Dress_Size
+Row:
+  Field: Aspect
+    CharWidth: 16
+    Lines: 14
+  Field: Picture

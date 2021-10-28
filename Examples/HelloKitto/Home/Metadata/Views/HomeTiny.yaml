@@ -1,0 +1,24 @@
+﻿DisplayLabel: _(%Config:AppTitle%)
+Controller: BorderPanel
+  DisplayMode: FullScreen
+  CenterView:
+    Controller: TilePanel
+      ColorSet: Red
+      Border: True
+      TileHeight: 70
+      TileWidth: 100
+      ShowImage: True
+        Position: 5px 5px
+      TreeView: MainMenuTiny
+
+  .SouthView:
+    Controller: StatusBar
+      Text: _(User: %Auth:UserName%)
+    ImageName: user
+
+MobileSettings:
+  ViewportContent:
+    width: 320
+    user-scalable: 0
+  Android:
+    Manifest: HomeTiny.json

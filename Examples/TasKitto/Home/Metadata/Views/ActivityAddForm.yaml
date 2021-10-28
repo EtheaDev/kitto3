@@ -1,0 +1,11 @@
+﻿DisplayLabel: _(Quick Add Activity)
+Type: Data
+Controller: Form
+  Operation: Add
+  HideLabels: True
+  CloneButton: True
+  KeepOpenAfterOperation: True
+MainTable:
+  Model: ACTIVITY
+  Controller:
+    AllowDuplicating: True

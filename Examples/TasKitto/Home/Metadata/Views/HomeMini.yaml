@@ -1,0 +1,7 @@
+﻿DisplayLabel: _(%Config:AppTitle%)
+Controller: TabPanel
+  DisplayMode: FullScreen
+  # List of views to be auto-opened in tabs.
+  SubViews:
+    View: ActivityAddForm
+    View: ActivityInput

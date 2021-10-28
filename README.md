@@ -1,3 +1,6 @@
+# Kitto<sup>3</sup> - A framework for creating data-driven web applications with Delphi and ExtJS 7.X
+[![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ![https://github.com/EtheaDev/kitto3/wiki/images/kitto2_logo_200.png](https://github.com/EtheaDev/kitto3/wiki/images/kitto3_logo_200.png)
 
 Kitto<sup>3</sup> allows to create **Rich Internet Applications** based on a data model that can be mapped onto any database. The client-side part uses **ExtJS 7** (through webbroker technology) to create a fully **AJAX** application, allowing you to build standard and advanced data-manipulating forms in a fraction of the time.

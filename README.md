@@ -2,7 +2,7 @@
 
 Kitto<sup>3</sup> allows to create **Rich Internet Applications** based on a data model that can be mapped onto any database. The client-side part uses **ExtJS 7** (through webbroker technology) to create a fully **AJAX** application, allowing you to build standard and advanced data-manipulating forms in a fraction of the time.
 
-![Delphi11.0Sydney Support](https://github.com/EtheaDev/InstantObjects/wiki/SupportingDelphi10.4Sydney_small.jpg)
+![Delphi11.0Sydney Support](https://raw.githubusercontent.com/wiki/EtheaDev/kitto3/images/SupportingDelphi.jpg)
 
 Related links: https://www.embarcadero.com/ - https://learndelphi.org/
 

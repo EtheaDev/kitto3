@@ -6,7 +6,7 @@ Kitto<sup>3</sup> allows to create **Rich Internet Applications** based on a dat
 
 Related links: https://www.embarcadero.com/ - https://learndelphi.org/
 
-The major differences of Kitto<sup>3</sup>, compared to Kitto<sup>2</sup> is the use of ExtJS 7.X client Library.
+The major differences of Kitto<sup>3</sup>, compared to Kitto<sup>2</sup> is the use of ExtJS 7.X client Library instead of ExtJS 6.X.
 
 Kitto<sup>3</sup> is aimed at **Delphi** developers that need to create web or mobile applications without delving into the intricacies of HTML, CSS, Javascript or learning to use a particular library such as ExtJS6, yet it allows access to the bare metal if required.
 

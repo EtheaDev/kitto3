@@ -142,11 +142,10 @@ Login: LoginView
 
 ExtJS:
   #Theme: neptune
-  #Theme: triton
+  Theme: triton
   #Theme: crisp
   #Theme: gray
   #Theme: ARIA
-  Theme: material
   #Theme: material
   AjaxTimeout: 100000
 

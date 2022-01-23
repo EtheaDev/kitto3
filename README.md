@@ -17,7 +17,7 @@ Kitto<sup>3</sup> includes a **database-agnostic** data-access layer, allowing t
 
 A Kitto<sup>3</sup> application is described as a set of easily maintained **YAML** files, keeping definitions abstract and declarative and allowing for future extensions. Business rules are enforced either declaratively or through small javascript fragments on the client, or in Delphi code on the server.
 
-Kitto<sup>3</sup> was originally designed by Nando Dessena and its development is maintained by Carlo Barazzetta [Ethea](http://www.ethea.it/), which uses Kitto, Kitto<sup>2</sup> and Kitto<sup>3</sup> for internal development projects and client work and provides Kitto-related tools, support and development services.
+Kitto<sup>3</sup> was originally designed by Nando Dessena and its development is sponsored by [Ethea](http://www.ethea.it/) and maintained by Carlo Barazzetta, which uses Kitto, Kitto<sup>2</sup> and Kitto<sup>3</sup> for internal development projects and client work and provides Kitto-related tools, support and development services.
 
 Start [here](https://github.com/EtheaDev/kitto3/wiki/Kitto-at-a-glance) for further information.
 

@@ -21,6 +21,6 @@ Kitto<sup>3</sup> was originally designed by Nando Dessena and its development i
 
 Start [here](https://github.com/EtheaDev/kitto3/wiki/Kitto-at-a-glance) for further information.
 
-Visit [this site](http://www.ethea.it/kitto_demo.html) for online demos.
+Visit [this site](https://ethea.it/Kitto-Demo/) for online demos.
 
 Happy Kittoing!

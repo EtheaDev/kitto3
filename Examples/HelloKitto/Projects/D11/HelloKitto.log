@@ -1,0 +1,977 @@
+Compilazione avviata 09/08/2022 18:26:09.
+Ambiente all'inizio della compilazione:
+ACSvcPort = 17532
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\carlo\AppData\Roaming
+BDS = C:\BDS\Studio\22.0
+BDSCOMMONDIR = C:\Users\Public\Documents\Embarcadero\Studio\22.0
+BDSINCLUDE = C:\BDS\Studio\22.0\Include
+ChocolateyInstall = C:\ProgramData\chocolatey
+ChocolateyLastPathUpdate = 132917545219386336
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = NB-CARLO
+ComSpec = C:\WINDOWS\system32\cmd.exe
+DOCS = C:\Users\Public\Documents
+DriverData = C:\Windows\System32\Drivers\DriverData
+dver = 11
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING = Default
+FrameworkDir = C:\WINDOWS\Microsoft.NET\Framework\
+FrameworkVersion = v4.0.30319
+HOMEDRIVE = C:
+HOMEPATH = \Users\carlo
+LOCALAPPDATA = C:\Users\carlo\AppData\Local
+LOGONSERVER = \\NB-CARLO
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MSBUILDLOGTASKINPUTS = 1
+NUMBER_OF_PROCESSORS = 12
+OneDrive = C:\Users\carlo\OneDrive
+OneDriveConsumer = C:\Users\carlo\OneDrive
+OS = Windows_NT
+Path = C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;;C:\Program Files (x86)\Raize\CS5\Deploy\Win32;C:\Python310\Scripts\;C:\Python310\;C:\BDS\Studio\14.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\14.0\Bpl;C:\BDS\Studio\14.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\14.0\Bpl\Win64;D:\app\client\carlo\product\12.1.0\client_1\bin;D:\app\carlo\product\12.1.0\dbhome_1\bin;D:\app\client\carlo\product\12.2.0\client_1\bin;D:\BDS\Studio\22.0\bin;D:\BDS\Studio\22.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\Win64;C:\BDS\Studio\18.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\18.0\Bpl;C:\BDS\Studio\18.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\18.0\Bpl\Win64;C:\BDS\Studio\19.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl;C:\BDS\Studio\19.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl\Win64;C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08-hotspot\bin;C:\BDS\Studio\21.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl;C:\BDS\Studio\21.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl\Win64;C:\ProgramData\Oracle\Java\javapath;C:\BDS\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\BDS\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Infocert\DiKe 6\RAO;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files;C:\Program Files (x86)\Microsoft SQL Server Migration Assistant for Access\bin\;C:\BDS\Studio\22.0\bin;C:\BDS\Studio\22.0\bin64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bid;C:\Program Files\Java\jdk1.8.0;C:\Users\carlo\AppData\Roaming\npm;D:\ETHEA\Sencha\Cmd\7.5.1.20
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PF = C:\BDS
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = a502
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PROMPT = $P$G
+PSModulePath = %ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\PowerShell\Modules\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+PUBLIC = C:\Users\Public
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\carlo\AppData\Local\Temp
+TMP = C:\Users\carlo\AppData\Local\Temp
+USERDOMAIN = NB-CARLO
+USERDOMAIN_ROAMINGPROFILE = NB-CARLO
+USERNAME = carlo
+USERPROFILE = C:\Users\carlo
+windir = C:\WINDOWS
+
+Override della destinazione "default" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "default" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "CoreBuild" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "CoreBuild" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "Build" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "Build" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "Clean" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "Clean" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "CleanOutputs" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "CleanOutputs" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "CleanResources" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "CleanResources" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "CreateDirectories" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "CreateDirectories" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "CreateProjectDirectories" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "CreateProjectDirectories" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "CreateLocalDirectories" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "CreateLocalDirectories" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "ResourceBuild" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "ResourceBuild" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "Win32ResourceDependencies" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "Win32ResourceDependencies" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "ResolveFiles" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "ResolveFiles" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "ResolvePaths" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "ResolvePaths" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "ResolveResources" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "ResolveResources" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "ResolveSources" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "ResolveSources" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Override della destinazione "ResolveOutputs" nel progetto "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" con la destinazione "ResolveOutputs" del progetto "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets".
+Progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" sul nodo 1 (destinazioni: Build).
+Proprietà iniziali:
+___ResourcePath = c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32
+__Manifest_File = C:\BDS\Studio\22.0\bin\default_app.manifest
+__MetadataName = Identity
+__ObjectPath = c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32
+__ResourcePath = ..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32
+_EvaluateItemDependsOnTargets = 
+      ResolveFiles;
+    
+_EvaluateOutputsDependsOnTargets = 
+      
+      ResolveFiles;
+    
+    
+_EvaluatePropertyDependsOnTargets = 
+      ResolveFiles;
+    
+_KibitzItemNames = BCC32_CmdLine;BRCC32_CmdLine;TASM32_CmdLine;BCC_CmdLine;IDEDepCheck;EvaluateProperty;EvaluateItem
+_ObjectPath = ..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32
+_OutputDRCFiles = false
+_ProjectFiles = @(DelphiCompile)
+_ResolveGENTLBBindingsTarget = 
+      _ResolveGENTLBBindings;
+    
+ACSvcPort = 17532
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\carlo\AppData\Roaming
+AppDataDir = C:\Users\carlo\AppData\Roaming\Embarcadero\BDS\22.0\
+AppType = Application
+Base = true
+BDS = C:\BDS\Studio\22.0
+BDSAppDataBaseDir = BDS
+BDSBIN = c:\bds\studio\22.0\bin
+BDSCatalogRepository = D:\Users\carlo\Documents\Embarcadero\Studio\22.0\CatalogRepository
+BDSCatalogRepositoryAllUsers = C:\BDS\Studio\22.0\CatalogRepository
+BDSCOMMONDIR = C:\Users\Public\Documents\Embarcadero\Studio\22.0
+BDSINCLUDE = C:\BDS\Studio\22.0\Include
+BDSLIB = c:\bds\studio\22.0\lib
+BDSPLATFORMSDKSDIR = D:\Users\carlo\Documents\Embarcadero\Studio\SDKs
+BDSPROFILESDIR = D:\Users\carlo\Documents\Embarcadero\Studio\Profiles
+BDSPROJECTSDIR = D:\Users\carlo\Documents\Embarcadero\Studio\Projects
+BDSUSERDIR = D:\Users\carlo\Documents\Embarcadero\Studio\22.0
+BpiExt = bpi
+BpiOutput = 
+BplExt = bpl
+BplOutput = 
+BplPlatformPrefix = 
+BRCC_Defines = RELEASE;;FRAMEWORK_VCL
+BRCC_IncludePath = ..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32
+BT_BuildType = Debug
+BuildDependsOn = 
+      SetBuildOptions;
+      CoreBuild;
+      AutoIncBuildNumber;
+    
+cAndroidArm32Platform = Android
+cAndroidArm64Platform = Android64
+Cfg_1 = true
+Cfg_1_Win32 = true
+CfgParent = Cfg_1
+ChocolateyInstall = C:\ProgramData\chocolatey
+ChocolateyLastPathUpdate = 132917545219386336
+ciOSDevice32Platform = iOSDevice32
+ciOSDevice64Platform = iOSDevice64
+ciOSSimulator32Platform = iOSSimulator
+CleanDependsOn = 
+      ResolveFiles;
+      CleanOutputs;
+      CleanVersionResources;
+      CleanResources;
+      CleanAndroidApkRootDir;
+      CleanUWPAppxRootDir;
+      CleanPredexedJars;
+      CleanJavaClassesOutputDir;
+      CleanOSX64Outputs;
+      CleanAndroid32Outputs
+    
+cLinux64Platform = Linux64
+CmdsFileOutput = ..\..\Home\HelloKitto.cmds
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles_x86_ = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = NB-CARLO
+ComSpec = C:\WINDOWS\system32\cmd.exe
+config = Release
+CoreBuildDependsOn = 
+      _CheckBuildEnvironment;
+      _CheckPlatformVariable;
+      _CheckGetItPackageDependencies;
+      _CheckPlatformSDK;
+      CreateDirectories;
+      ResolveFiles;
+      BuildVersionResource;
+      ResourceBuild;
+      ;
+      PreBuildEvent;
+      _PreOutputTimeStamp;
+      _RunUserTools;
+      RidlCompile;
+      _PasCoreCompile;
+      BuildAndroidManifestList;
+      BuildAndroidServiceJarFile;
+      BuildClassesDex;
+      _PostOutputTimeStamp;
+      PostBuildEvent;
+      ;
+      _DeleteLnkFile;
+      GenOSX64Outputs;
+      GenAndroid32Outputs
+    
+cOSX32Platform = OSX32
+cOSX64Platform = OSX64
+cOSXArm64Platform = OSXARM64
+CreateDirectoriesDependsOn = 
+      CreateProjectDirectories;
+      CreateLocalDirectories
+    
+cWin32Platform = Win32
+cWin64Platform = Win64
+cWinArm32Platform = WinARM
+cWinIoT32Platform = WinIoT32
+cWinNX32Platform = WinNX32
+DCC_BpiOutput = C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp\
+DCC_BplOutput = C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\
+DCC_DCCCompiler = DCC32
+DCC_DcpOutput = C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp\
+DCC_DcuOutput = ..\..\Lib\\Release\Win32\
+DCC_DebugInformation = 0
+DCC_Define = RELEASE;;FRAMEWORK_VCL
+DCC_DUPLICATE_CTOR_DTOR = false
+DCC_E = false
+DCC_ExeOutput = ..\..\Home
+DCC_F = false
+DCC_ForceExecute = 
+DCC_HppOutput = C:\Users\Public\Documents\Embarcadero\Studio\22.0\hpp\Win32\
+DCC_ImageBase = 00400000
+DCC_K = false
+DCC_LocalDebugSymbols = false
+DCC_N = false
+DCC_Namespace = System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;Data.Win;
+DCC_ObjOutput = ..\..\Lib\\Release\Win32\
+DCC_PlatformTarget = Win32
+DCC_ResourceOutput = C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp
+DCC_S = false
+DCC_SYMBOL_PLATFORM = false
+DCC_SymbolReferenceInfo = 0
+DCC_UnitSearchPath = ..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;
+DCC_WriteableConstants = true
+DCCPasFileOutputExt = .dcu
+DcpOutput = 
+DcuOutput = 
+DefaultPlatformSDK = Win10SDK10.0.22000.0_Win32.sdk
+DefaultProfile = 
+Defines = RELEASE;;FRAMEWORK_VCL
+DELPHI = c:\bds\studio\22.0
+DelphiBrowsingPath = C:\BDS\Studio\22.0\OCX\Servers;C:\BDS\Studio\22.0\SOURCE\VCL;C:\BDS\Studio\22.0\source\rtl\common;C:\BDS\Studio\22.0\SOURCE\RTL\SYS;C:\BDS\Studio\22.0\source\rtl\win;C:\BDS\Studio\22.0\source\rtl\win\winrt;C:\BDS\Studio\22.0\source\ToolsAPI;C:\BDS\Studio\22.0\SOURCE\IBX;C:\BDS\Studio\22.0\source\Internet;C:\BDS\Studio\22.0\SOURCE\PROPERTY EDITORS;C:\BDS\Studio\22.0\source\soap;C:\BDS\Studio\22.0\SOURCE\XML;C:\BDS\Studio\22.0\source\Indy10\Core;C:\BDS\Studio\22.0\source\Indy10\System;C:\BDS\Studio\22.0\source\Indy10\Protocols;C:\BDS\Studio\22.0\source\fmx;C:\BDS\Studio\22.0\source\databinding\components;C:\BDS\Studio\22.0\source\databinding\engine;C:\BDS\Studio\22.0\source\databinding\graph;C:\BDS\Studio\22.0\source\data;C:\BDS\Studio\22.0\source\data\ado;C:\BDS\Studio\22.0\source\data\cloud;C:\BDS\Studio\22.0\source\data\datasnap;C:\BDS\Studio\22.0\source\data\dbx;C:\BDS\Studio\22.0\source\data\dsnap;C:\BDS\Studio\22.0\source\data\vclctrls;C:\BDS\Studio\22.0\source\data\datasnap\connectors;C:\BDS\Studio\22.0\source\data\datasnap\proxygen;C:\BDS\Studio\22.0\source\DataExplorer;C:\BDS\Studio\22.0\source\DUnit\Contrib\DUnitWizard\Source\Common;C:\BDS\Studio\22.0\source\DUnit\Contrib\DUnitWizard\Source\Common\dunit;C:\BDS\Studio\22.0\source\DUnit\Contrib\DUnitWizard\Source\DelphiExperts\Common;C:\BDS\Studio\22.0\source\DUnit\Contrib\DUnitWizard\Source\DelphiExperts\DUnitProject;C:\BDS\Studio\22.0\source\DUnit\Contrib\DUnitWizard\Source\DelphiExperts\DUnitProject\dunit;C:\BDS\Studio\22.0\source\DUnit\src;C:\BDS\Studio\22.0\source\DUnit\tests;C:\BDS\Studio\22.0\source\Experts;C:\BDS\Studio\22.0\source\indy\abstraction;C:\BDS\Studio\22.0\source\indy\implementation;C:\BDS\Studio\22.0\source\indyimpl;C:\BDS\Studio\22.0\source\Property Editors\Indy10;C:\BDS\Studio\22.0\source\soap\wsdlimporter;C:\BDS\Studio\22.0\source\Visualizers;C:\BDS\Studio\22.0\source\DUnit\Contrib\XMLReporting;C:\BDS\Studio\22.0\source\DUnit\Contrib\XPGen;C:\BDS\Studio\22.0\source\data\rest;C:\BDS\Studio\22.0\source\data\firedac;C:\BDS\Studio\22.0\source\tethering;C:\BDS\Studio\22.0\source\DUnitX;C:\BDS\Studio\22.0\source\data\ems;C:\BDS\Studio\22.0\source\rtl\net;C:\BDS\Studio\22.0\source\FlatBox2D
+DelphiDCPOutput = C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp
+DelphiDebugDCUPath = c:\bds\studio\22.0\lib\Win32\debug
+DelphiDLLOutputPath = C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl
+DelphiHPPOutputPath = C:\Users\Public\Documents\Embarcadero\Studio\22.0\hpp\Win32
+DelphiLibraryPath = c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32
+DelphiNamespaceSearchPath = 
+DelphiTranslatedDebugLibraryPath = c:\bds\studio\22.0\lib\Win32\debug\
+DelphiTranslatedLibraryPath = c:\bds\studio\22.0\lib\Win32\release\
+DelphiTranslatedResourcePath = c:\bds\studio\22.0\lib\Win32\release\
+DEMOSDIR = C:\Users\Public\Documents\Embarcadero\Studio\22.0\Samples
+DllExt = dll
+DllOutput = 
+DllPlatformPrefix = 
+DOCS = C:\Users\Public\Documents
+DriverData = C:\Windows\System32\Drivers\DriverData
+dver = 11
+EL_AppIdentifier = 
+EL_CFBundleIdentifier = 
+EL_DevTeamId = 
+EL_EntitlementExtraKeyValues = 
+EL_KeyChainAccess = 
+EL_MobileProvision = 
+EL_MobileProvisionPath = 
+ENV_PF_KeyStore = 
+ENV_PF_KeyStorePass = 
+ENV_PF_KeyStoreSubject = 
+ENV_PF_UWPDistributionType = 
+EnvironmentSettings = C:\Users\carlo\AppData\Roaming\Embarcadero\BDS\22.0\environment.proj
+EnvOptions = C:\Users\carlo\AppData\Roaming\Embarcadero\BDS\22.0\EnvOptions.proj
+ExeExt = exe
+ExeOutput = 
+FinalOutput = ..\..\Home\HelloKitto.exe
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING = Default
+FrameworkDir = C:\WINDOWS\Microsoft.NET\Framework\
+FrameworkType = VCL
+FrameworkVersion = v4.0.30319
+Gen64BitTypeLib = false
+GENTLB_GenPasBindings = false
+GENTLB_OutputName = HelloKitto.tlb
+HOMEDRIVE = C:
+HOMEPATH = \Users\carlo
+HppOutput = 
+IBREDISTDIR = C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020
+Icon_MainIcon = ..\HelloKitto_Icon.ico
+IncludePath = ..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32
+InputDir = @(InputFile->'%(RootDir)%(Directory)')
+InputExt = @(InputFile->'%(Extension)')
+InputFilename = @(InputFile->'%(Filename)%(Extension)')
+InputName = @(InputFile->'%(Filename)')
+InputPath = @(InputFile->'%(FullPath)')
+LibExt = lib
+LinkDependsOnTargets = ;_VerifyProfileFile;_CheckPlatformSDK
+LOCALAPPDATA = C:\Users\carlo\AppData\Local
+LOGONSERVER = \\NB-CARLO
+MainSource = HelloKitto.dpr
+MakeAppxPath = C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\makeappx.exe
+MakeCertPath = C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\makecert.exe
+MakeDependsOn = 
+      SetMakeOptions;
+      CoreBuild;
+    
+MakeDependsOnTargets = ;_VerifyProfileFile;_CheckPlatformSDK
+MakeOneDependsOnTargets = ;_VerifyProfileFile;_CheckPlatformSDK
+Manifest_File = C:\BDS\Studio\22.0\bin\default_app.manifest
+MSBuildBinPath = C:\Windows\Microsoft.NET\Framework\v2.0.50727
+MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+MSBuildLoadMicrosoftTargetsReadOnly = true
+MSBUILDLOGTASKINPUTS = 1
+MSBuildNodeCount = 1
+MSBuildProgramFiles32 = C:\Program Files (x86)
+MSBuildProjectDefaultTargets = Make
+MSBuildProjectDirectory = D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11
+MSBuildProjectDirectoryNoRoot = ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11
+MSBuildProjectExtension = .dproj
+MSBuildProjectFile = HelloKitto.dproj
+MSBuildProjectFullPath = D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj
+MSBuildProjectName = HelloKitto
+MSBuildStartupDirectory = D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11
+MSBuildToolsPath = C:\Windows\Microsoft.NET\Framework\v2.0.50727
+MSBuildToolsVersion = 2.0
+MSBuildUserExtensionsPath = C:\Users\carlo\AppData\Local\Microsoft\MSBuild
+NameSpace = System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;Data.Win;;
+NUMBER_OF_PROCESSORS = 12
+ObjExt = obj
+ObjOutput = 
+OneDrive = C:\Users\carlo\OneDrive
+OneDriveConsumer = C:\Users\carlo\OneDrive
+OS = Windows_NT
+OutputDir = ..\..\Home\
+OutputExt = .exe
+OutputFilename = HelloKitto.exe
+OutputName = HelloKitto
+OutputPath = @(OutputFile->'%(FullPath)')
+Path = C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;;C:\Program Files (x86)\Raize\CS5\Deploy\Win32;C:\Python310\Scripts\;C:\Python310\;C:\BDS\Studio\14.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\14.0\Bpl;C:\BDS\Studio\14.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\14.0\Bpl\Win64;D:\app\client\carlo\product\12.1.0\client_1\bin;D:\app\carlo\product\12.1.0\dbhome_1\bin;D:\app\client\carlo\product\12.2.0\client_1\bin;D:\BDS\Studio\22.0\bin;D:\BDS\Studio\22.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\Win64;C:\BDS\Studio\18.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\18.0\Bpl;C:\BDS\Studio\18.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\18.0\Bpl\Win64;C:\BDS\Studio\19.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl;C:\BDS\Studio\19.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl\Win64;C:\Program Files\AdoptOpenJDK\jdk-8.0.242.08-hotspot\bin;C:\BDS\Studio\21.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl;C:\BDS\Studio\21.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl\Win64;C:\ProgramData\Oracle\Java\javapath;C:\BDS\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\BDS\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Infocert\DiKe 6\RAO;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files;C:\Program Files (x86)\Microsoft SQL Server Migration Assistant for Access\bin\;C:\BDS\Studio\22.0\bin;C:\BDS\Studio\22.0\bin64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bid;C:\Program Files\Java\jdk1.8.0;C:\Users\carlo\AppData\Roaming\npm;D:\ETHEA\Sencha\Cmd\7.5.1.20
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+PF = C:\BDS
+Platform = Win32
+PlatformSDK = Win10SDK10.0.22000.0_Win32.sdk
+PreprocessDependsOnTargets = _VerifyProfileFile;_CheckPlatformSDK;
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = a502
+ProducedFileList = HelloKitto.dproj.filelist.txt
+ProductVersion = 22.0
+Profile = 
+Profile_displayname = Windows 10 SDK 10.0.22000.0 Win32
+Profile_host = localhost
+Profile_password = AB1401D23AF8F3C66832CE6040E1FA2D
+Profile_platform = Win32
+Profile_port = 64211
+Profile_sdkname = Win10SDK10.0.22000.0_Win32.sdk
+Profile_version = 10.0.22000.0
+Profiles = C:\BDS\Studio\22.0\bin\CodeGear.Profiles.Targets
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles_x86_ = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+ProjectDir = D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11
+ProjectExt = .dproj
+ProjectFilename = HelloKitto.dproj
+ProjectGuid = {1FBC6B9D-04F2-4238-A7C5-07DEC4D673EA}
+ProjectName = HelloKitto
+ProjectOutputExtension = .exe
+ProjectPath = D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj
+ProjectVersion = 19.3
+PROMPT = $P$G
+PSModulePath = %ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\PowerShell\Modules\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+PUBLIC = C:\Users\Public
+Pvk2pfxPath = C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\pvk2pfx.exe
+ReBuildDependsOn = 
+      ResolveFiles;
+      Clean;
+      Build
+    
+ResolveFilesDependsOn = 
+      ResolveSources;
+      ResolveInputs;
+      ResolveOutputs;
+      ResolveResources;
+      ResolveLocalResources;
+      ResolvePaths;
+      ResolveReferences
+    
+ResourceBuildDependsOn = 
+      BuildProjectResourceFile;
+      Win32ResourceDependencies;
+      BrccCompile;
+      BuildLicenseFile;
+    
+ResourceOutput = 
+ResourcePath = ..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32
+SanitizedProjectName = HelloKitto
+SDKBasePath = C:\Program Files (x86)\Windows Kits\10\
+SESSIONNAME = Console
+ShowStdOut = 
+SignToolPath = C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe
+SKIADIR = D:\ETHEA\Skia4Delphi
+StaticLibPrefix = 
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TargetedPlatforms = 1
+TEMP = C:\Users\carlo\AppData\Local\Temp
+TMP = C:\Users\carlo\AppData\Local\Temp
+UnitAliases = Generics.Collections=System.Generics.Collections;Generics.Defaults=System.Generics.Defaults;WinTypes=Winapi.Windows;WinProcs=Winapi.Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE
+UnitSearchPath = ..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32
+USERDOMAIN = NB-CARLO
+USERDOMAIN_ROAMINGPROFILE = NB-CARLO
+USERNAME = carlo
+USERPROFILE = C:\Users\carlo
+UWP_DelphiLogo150 = C:\BDS\Studio\22.0\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png
+UWP_DelphiLogo44 = C:\BDS\Studio\22.0\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png
+ValidateOptionsDependsOn = 
+      ValidateGlobalOptions;
+      ValidateSources;
+      ValidateLocalResources;
+      ValidatePaths
+    
+VerInfo_IncludeVerInfo = true
+VerInfo_Keys = CompanyName=Ethea S.r.l.;FileDescription=;FileVersion=3.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=3.0;Comments=
+VerInfo_Locale = 1033
+VerInfo_MajorVer = 3
+windir = C:\WINDOWS
+
+Elementi iniziali:
+_DirectoryList
+    ..\..\Home
+    ..\..\Lib\\Release\Win32\
+    ..\..\Lib\\Release\Win32\
+    C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\
+    C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp
+    C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp\
+    C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp\
+    C:\Users\Public\Documents\Embarcadero\Studio\22.0\hpp\Win32\
+BuildConfiguration
+    Base
+        Key = Base
+    Debug
+        Key = Cfg_2
+        CfgParent = Base
+    Release
+        Key = Cfg_1
+        CfgParent = Base
+DCCReference
+    ..\..\Source\Controllers.pas
+    ..\..\Source\Rules.pas
+    ..\..\Source\UseKitto.pas
+DelphiCompile
+    HelloKitto.dpr
+        MainSource = MainSource
+
+Compilazione con la versione degli strumenti "2.0".
+Destinazione "SetBuildOptions: (ID destinazione: 2)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "Build" dipende da essa):
+Verrà utilizzata l'attività "CreateProperty" dall'assembly "Microsoft.Build.Tasks, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Attività "CreateProperty" (ID attività:2)
+  Parametro attività:Value=true (ID attività:2)
+Esecuzione attività "CreateProperty" completata. (ID attività:2)
+Attività "CreateProperty" (ID attività:3)
+  Parametro attività:Value=true (ID attività:3)
+Esecuzione attività "CreateProperty" completata. (ID attività:3)
+Compilazione destinazione "SetBuildOptions" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 2)
+Destinazione "_CheckBuildEnvironment: (ID destinazione: 3)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "CoreBuild" dipende da essa):
+Attività "Warning" ignorata. Condizione false. (!Exists('$(EnvOptions)') and ('$(EnvOptionsWarn)'!='false')) ha restituito (!Exists('C:\Users\carlo\AppData\Roaming\Embarcadero\BDS\22.0\EnvOptions.proj') and (''!='false')).
+Compilazione destinazione "_CheckBuildEnvironment" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 3)
+Destinazione "_CheckPlatformVariable: (ID destinazione: 4)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "CoreBuild" dipende da essa):
+Attività "Error" ignorata. Condizione false. (!( ('$(Platform)'=='$(cWin32Platform)')
+        Or ('$(Platform)'=='$(cWinNX32Platform)')
+        Or ('$(Platform)'=='$(cWinIoT32Platform)')
+        Or ('$(Platform)'=='$(cWinArm32Platform)')
+        Or ('$(Platform)'=='$(cWin64Platform)')
+        Or ('$(Platform)'=='$(cOSX32Platform)')
+        Or ('$(Platform)'=='$(cOSX64Platform)')
+        Or ('$(Platform)'=='$(cOSXArm64Platform)')
+        Or ('$(Platform)'=='$(cAndroidArm32Platform)')
+        Or ('$(Platform)'=='$(cAndroidArm64Platform)')
+        Or ('$(Platform)'=='$(ciOSSimulator32Platform)')
+        Or ('$(Platform)'=='$(ciOSDevice32Platform)')
+        Or ('$(Platform)'=='$(ciOSDevice64Platform)')
+        Or ('$(Platform)'=='$(cLinux64Platform)') )) ha restituito (!( ('Win32'=='Win32')
+        Or ('Win32'=='WinNX32')
+        Or ('Win32'=='WinIoT32')
+        Or ('Win32'=='WinARM')
+        Or ('Win32'=='Win64')
+        Or ('Win32'=='OSX32')
+        Or ('Win32'=='OSX64')
+        Or ('Win32'=='OSXARM64')
+        Or ('Win32'=='Android')
+        Or ('Win32'=='Android64')
+        Or ('Win32'=='iOSSimulator')
+        Or ('Win32'=='iOSDevice32')
+        Or ('Win32'=='iOSDevice64')
+        Or ('Win32'=='Linux64') )).
+Compilazione destinazione "_CheckPlatformVariable" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 4)
+Destinazione"_CheckGetItPackageDependencies" ignorata. Condizione false. (('$(GetItPackages)'!='') And '$(BDSHost)'!='true') ha restituito ((''!='') And ''!='true').
+Destinazione "_VerifyPlatformSDKFile: (ID destinazione: 5)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Profiles.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "_CheckPlatformSDK" dipende da essa):
+Attività "Error" ignorata. Condizione false. ('$(PlatformSDK)'!='' And !Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(ProductVersion)\$(PlatformSDK)')) ha restituito ('Win10SDK10.0.22000.0_Win32.sdk'!='' And !Exists('C:\Users\carlo\AppData\Roaming\Embarcadero\BDS\22.0\Win10SDK10.0.22000.0_Win32.sdk')).
+Compilazione destinazione "_VerifyPlatformSDKFile" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 5)
+Destinazione "_PlatformExists: (ID destinazione: 6)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Profiles.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "_CheckPlatformSDK" dipende da essa):
+Verrà utilizzata l'attività "ContainsString" dall'assembly "C:\BDS\Studio\22.0\bin\Borland.Build.Tasks.Shared.dll".
+Attività "ContainsString" (ID attività:4)
+  Parametro attività:Text=Win32 (ID attività:4)
+  Parametro attività:Substring=Win32 (ID attività:4)
+  Parametro attività:Separator=; (ID attività:4)
+Esecuzione attività "ContainsString" completata. (ID attività:4)
+Compilazione destinazione "_PlatformExists" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 6)
+Destinazione "_CheckPlatformSDK: (ID destinazione: 7)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Profiles.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "CoreBuild" dipende da essa):
+Attività "Error" ignorata. Condizione false. ('$(PlatformSDK)'!='' And '$(PlatformExists)'=='true' And !Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(ProductVersion)\$(PlatformSDK)')) ha restituito ('Win10SDK10.0.22000.0_Win32.sdk'!='' And 'true'=='true' And !Exists('C:\Users\carlo\AppData\Roaming\Embarcadero\BDS\22.0\Win10SDK10.0.22000.0_Win32.sdk')).
+Verrà utilizzata l'attività "CallTarget" dall'assembly "Microsoft.Build.Tasks, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Attività "CallTarget" (ID attività:5)
+  Parametro attività:Targets=_GatherPlatformSDKPaths (ID attività:5)
+Destinazione "_CollapsePaths: (ID destinazione: 8)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Profiles.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "_GatherPlatformSDKPaths" dipende da essa):
+Verrà utilizzata l'attività "ExpandItemNoDups" dall'assembly "C:\BDS\Studio\22.0\bin\Borland.Build.Tasks.Shared.dll".
+Attività "ExpandItemNoDups" (ID attività:6)
+Esecuzione attività "ExpandItemNoDups" completata. (ID attività:6)
+Attività "ExpandItemNoDups" (ID attività:7)
+Esecuzione attività "ExpandItemNoDups" completata. (ID attività:7)
+Attività "ExpandItemNoDups" (ID attività:8)
+Esecuzione attività "ExpandItemNoDups" completata. (ID attività:8)
+Compilazione destinazione "_CollapsePaths" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 8)
+Destinazione "_CollectFrameworks: (ID destinazione: 9)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Profiles.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "_GatherPlatformSDKPaths" dipende da essa):
+Verrà utilizzata l'attività "FrameworkBuilder" dall'assembly "C:\BDS\Studio\22.0\bin\Borland.Build.Tasks.Shared.dll".
+Attività "FrameworkBuilder" (ID attività:9)
+  Parametro attività:PlatformName=Win32 (ID attività:9)
+Esecuzione attività "FrameworkBuilder" completata. (ID attività:9)
+Compilazione destinazione "_CollectFrameworks" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 9)
+Destinazione "_GatherPlatformSDKPaths: (ID destinazione: 10)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Profiles.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "_CheckPlatformSDK" dipende da essa):
+Compilazione destinazione "_GatherPlatformSDKPaths" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 10)
+Esecuzione attività "CallTarget" completata. (ID attività:5)
+Compilazione destinazione "_CheckPlatformSDK" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 7)
+Destinazione "CreateProjectDirectories: (ID destinazione: 11)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "CreateDirectories" dipende da essa):
+Verrà utilizzata l'attività "MakeDir" dall'assembly "Microsoft.Build.Tasks, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Attività "MakeDir" (ID attività:10)
+  Parametro attività:
+      Directories=
+          ..\..\Lib\\Release\Win32\
+          C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp\
+          C:\Users\Public\Documents\Embarcadero\Studio\22.0\hpp\Win32\
+          ..\..\Lib\\Release\Win32\
+          C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp
+          C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\
+          C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp\
+          ..\..\Home (ID attività:10)
+Esecuzione attività "MakeDir" completata. (ID attività:10)
+Compilazione destinazione "CreateProjectDirectories" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 11)
+Destinazione "CreateLocalDirectories: (ID destinazione: 12)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "CreateDirectories" dipende da essa):
+Compilazione destinazione "CreateLocalDirectories" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 12)
+Destinazione "CreateDirectories: (ID destinazione: 13)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "CoreBuild" dipende da essa):
+Compilazione destinazione "CreateDirectories" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 13)
+Destinazione "ResolveSources: (ID destinazione: 14)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "ResolveFiles" dipende da essa):
+Attività "CreateItem" ignorata. Condizione false. (( '%(EXTENSION)'=='.pas' ) ) ha restituito (( ''=='.pas' ) ).
+Verrà utilizzata l'attività "CreateItem" dall'assembly "Microsoft.Build.Tasks, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Attività "CreateItem" (ID attività:11)
+  Parametro attività:
+      Include=
+          D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dpr
+                  MainSource=MainSource (ID attività:11)
+Esecuzione attività "CreateItem" completata. (ID attività:11)
+Attività "CreateProperty" (ID attività:12)
+  Parametro attività:Value=HelloKitto (ID attività:12)
+Esecuzione attività "CreateProperty" completata. (ID attività:12)
+Compilazione destinazione "ResolveSources" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 14)
+Destinazione "_ResolveUserTool: (ID destinazione: 15)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "_ResolveInput" dipende da essa):
+Attività "FindItems" ignorata. Condizione false. ('$(FileToCompile)'!='') ha restituito (''!='').
+Compilazione destinazione "_ResolveUserTool" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 15)
+Destinazione "_ResolveInput: (ID destinazione: 16)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "ResolveInputs" dipende da essa):
+Attività "CreateItem" (ID attività:13)
+  Parametro attività:Include=D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj (ID attività:13)
+Esecuzione attività "CreateItem" completata. (ID attività:13)
+Attività "CreateItem" ignorata. Condizione false. ('$(FileToCompile)'!='' And '@(InputFile)'=='') ha restituito (''!='' And 'D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj'=='').
+Compilazione destinazione "_ResolveInput" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 16)
+Destinazione "ResolveInputs: (ID destinazione: 17)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "ResolveFiles" dipende da essa):
+Attività "CreateItem" (ID attività:14)
+  Parametro attività:
+      Include=
+          ..\..\Source\Controllers.pas
+          ..\..\Source\Rules.pas
+          ..\..\Source\UseKitto.pas (ID attività:14)
+Esecuzione attività "CreateItem" completata. (ID attività:14)
+Attività "CreateItem" ignorata. Condizione false. (( '%(DCCReference.Form)'!='' ) ) ha restituito (( ''!='' ) ).
+Compilazione destinazione "ResolveInputs" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 17)
+Destinazione "ResolveOutputs: (ID destinazione: 18)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "ResolveFiles" dipende da essa):
+Attività "CreateItem" (ID attività:15)
+  Parametro attività:
+      Include=
+          ..\..\Lib\\Release\Win32\Controllers.dcu
+          ..\..\Lib\\Release\Win32\Rules.dcu
+          ..\..\Lib\\Release\Win32\UseKitto.dcu (ID attività:15)
+Esecuzione attività "CreateItem" completata. (ID attività:15)
+Attività "CreateItem" ignorata. Condizione false. (('%(EXTENSION)'=='.pas' And '$(DCC_HppOutput)'!='' And '$(DCC_CBuilderOutput)'!='None' And '$(DCC_CBuilderOutput)'!='' ) ) ha restituito (('.pas'=='.pas' And 'C:\Users\Public\Documents\Embarcadero\Studio\22.0\hpp\Win32\'!='' And ''!='None' And ''!='' ) ).
+Attività "CreateItem" ignorata. Condizione false. (('%(EXTENSION)'=='.pas' And '$(DCC_HppOutput)'=='' And '$(DCC_CBuilderOutput)'!='None' And '$(DCC_CBuilderOutput)'!='' ) ) ha restituito (('.pas'=='.pas' And 'C:\Users\Public\Documents\Embarcadero\Studio\22.0\hpp\Win32\'=='' And ''!='None' And ''!='' ) ).
+Attività "CreateItem" ignorata. Condizione false. ('$(DCC_HppOutput)'!='' And '$(DCC_CBuilderOutput)'!='None' And '$(DCC_CBuilderOutput)'!='') ha restituito ('C:\Users\Public\Documents\Embarcadero\Studio\22.0\hpp\Win32\'!='' And ''!='None' And ''!='').
+Attività "CreateItem" ignorata. Condizione false. ('$(DCC_HppOutput)'=='' And '$(DCC_CBuilderOutput)'!='None' And '$(DCC_CBuilderOutput)'!='') ha restituito ('C:\Users\Public\Documents\Embarcadero\Studio\22.0\hpp\Win32\'=='' And ''!='None' And ''!='').
+Attività "CreateItem" ignorata. Condizione false. (('%(EXTENSION)'=='.pas' And '$(DCC_CBuilderOutput)'!='None' And '$(DCC_CBuilderOutput)'!='' ) ) ha restituito (('.pas'=='.pas' And ''!='None' And ''!='' ) ).
+Attività "CreateItem" ignorata. Condizione false. ('$(DCC_CBuilderOutput)'!='None' And '$(DCC_CBuilderOutput)'!='') ha restituito (''!='None' And ''!='').
+Attività "CreateItem" ignorata. Condizione false. ('%(EXTENSION)'=='.dpk' Or '%(EXTENSION)'=='.dpkw') ha restituito ('.dpr'=='.dpk' Or '.dpr'=='.dpkw').
+Attività "CreateItem" ignorata. Condizione false. ('%(EXTENSION)'=='.dpk' Or '%(EXTENSION)'=='.dpkw') ha restituito ('.dpr'=='.dpk' Or '.dpr'=='.dpkw').
+Attività "CreateItem" ignorata. Condizione false. (('%(EXTENSION)'=='.dpk' Or '%(EXTENSION)'=='.dpkw' ) And '$(DCC_CBuilderOutput)'!='None' And '$(DCC_CBuilderOutput)'!='' ) ha restituito (('.dpr'=='.dpk' Or '.dpr'=='.dpkw' ) And ''!='None' And ''!='' ).
+Attività "CreateItem" ignorata. Condizione false. (('%(EXTENSION)'=='.dpk' Or '%(EXTENSION)'=='.dpkw' ) And '$(DCC_CBuilderOutput)'!='None' And '$(DCC_CBuilderOutput)'!='' ) ha restituito (('.dpr'=='.dpk' Or '.dpr'=='.dpkw' ) And ''!='None' And ''!='' ).
+Attività "CreateItem" ignorata. Condizione false. (('%(EXTENSION)'=='.pas')  And '$(DCC_DcuOutput)'=='' ) ha restituito (('.pas'=='.pas')  And '..\..\Lib\\Release\Win32\'=='' ).
+Attività "CreateItem" (ID attività:16)
+  Parametro attività:Include=..\..\Home\HelloKitto.exe (ID attività:16)
+Esecuzione attività "CreateItem" completata. (ID attività:16)
+Attività "CreateItem" (ID attività:17)
+  Parametro attività:Include=..\..\Home\HelloKitto.exe (ID attività:17)
+Esecuzione attività "CreateItem" completata. (ID attività:17)
+Attività "CreateItem" (ID attività:18)
+Esecuzione attività "CreateItem" completata. (ID attività:18)
+Attività "CreateItem" ignorata. Condizione false. (( ('%(EXTENSION)'=='.dpk' Or '%(EXTENSION)'=='.dpkw') And '$(DCC_DcuOutput)' != '') ) ha restituito (( ('.dpr'=='.dpk' Or '.dpr'=='.dpkw') And '..\..\Lib\\Release\Win32\' != '') ).
+Attività "CreateItem" ignorata. Condizione false. (( ('%(EXTENSION)'=='.dpk' Or '%(EXTENSION)'=='.dpkw') And '$(DCC_DcuOutput)' == '') ) ha restituito (( ('.dpr'=='.dpk' Or '.dpr'=='.dpkw') And '..\..\Lib\\Release\Win32\' == '') ).
+Attività "CreateItem" ignorata. Condizione false. ( '@(_LicxFiles)'!='' ) ha restituito ( ''!='' ).
+Attività "CreateItem" ignorata. Condizione false. ('$(DebugSymbolFile)'!='') ha restituito (''!='').
+Attività "CreateItem" ignorata. Condizione false. ('$(ObjectLinkerFile)'!='') ha restituito (''!='').
+Attività "CreateItem" (ID attività:19)
+  Parametro attività:Include=..\..\Home\HelloKitto.cmds (ID attività:19)
+Esecuzione attività "CreateItem" completata. (ID attività:19)
+Attività "CreateItem" (ID attività:20)
+  Parametro attività:
+      Include=
+          ..\..\Home\HelloKitto.vsr
+                  OriginalItemSpec=..\..\Home\HelloKitto.exe (ID attività:20)
+Esecuzione attività "CreateItem" completata. (ID attività:20)
+Attività "CreateItem" ignorata. Condizione false. (('$(Platform)'=='$(cOSX32Platform)' Or '$(Platform)'=='$(cOSX64Platform)' Or '$(Platform)'=='$(cOSXArm64Platform)' Or '$(Platform)'=='$(ciOSSimulator32Platform)' Or '$(Platform)'=='$(ciOSDevice32Platform)' Or '$(Platform)'=='$(ciOSDevice64Platform)')) ha restituito (('Win32'=='OSX32' Or 'Win32'=='OSX64' Or 'Win32'=='OSXARM64' Or 'Win32'=='iOSSimulator' Or 'Win32'=='iOSDevice32' Or 'Win32'=='iOSDevice64')).
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(ciOSSimulator32Platform)' Or '$(Platform)'=='$(ciOSDevice32Platform)' Or '$(Platform)'=='$(ciOSDevice64Platform)' Or '$(Platform)'=='$(cOSX64Platform)' Or '$(Platform)'=='$(cOSXArm64Platform)') ha restituito ('Win32'=='iOSSimulator' Or 'Win32'=='iOSDevice32' Or 'Win32'=='iOSDevice64' Or 'Win32'=='OSX64' Or 'Win32'=='OSXARM64').
+Attività "CreateItem" ignorata. Condizione false. (('$(Platform)'=='$(cOSX32Platform)' Or '$(Platform)'=='$(cOSX64Platform)' Or '$(Platform)'=='$(cOSXArm64Platform)' Or '$(Platform)'=='$(ciOSSimulator32Platform)' Or '$(Platform)'=='$(ciOSDevice32Platform)' Or '$(Platform)'=='$(ciOSDevice64Platform)')) ha restituito (('Win32'=='OSX32' Or 'Win32'=='OSX64' Or 'Win32'=='OSXARM64' Or 'Win32'=='iOSSimulator' Or 'Win32'=='iOSDevice32' Or 'Win32'=='iOSDevice64')).
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(ciOSDevice64Platform)') ha restituito ('Win32'=='iOSDevice64').
+Attività "CreateItem" ignorata. Condizione false. (('$(Platform)'=='$(ciOSSimulator32Platform)' Or '$(Platform)'=='$(ciOSDevice32Platform)' Or '$(Platform)'=='$(ciOSDevice64Platform)')) ha restituito (('Win32'=='iOSSimulator' Or 'Win32'=='iOSDevice32' Or 'Win32'=='iOSDevice64')).
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" (ID attività:21)
+  Parametro attività:
+      Include=
+          ..\..\Home\HelloKitto.o
+                  OriginalItemSpec=..\..\Home\HelloKitto.exe (ID attività:21)
+Esecuzione attività "CreateItem" completata. (ID attività:21)
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" ignorata. Condizione false. ('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') ha restituito ('Win32'=='Android' Or 'Win32'=='Android64').
+Attività "CreateItem" (ID attività:22)
+  Parametro attività:
+      Include=
+          ..\..\Lib\\Release\Win32\Controllers.o
+          ..\..\Lib\\Release\Win32\Rules.o
+          ..\..\Lib\\Release\Win32\UseKitto.o (ID attività:22)
+Esecuzione attività "CreateItem" completata. (ID attività:22)
+Attività "CreateItem" (ID attività:23)
+  Parametro attività:
+      Include=
+          ..\..\Home\AppxManifest.xml
+                  OriginalItemSpec=..\..\Home\HelloKitto.exe (ID attività:23)
+Esecuzione attività "CreateItem" completata. (ID attività:23)
+Compilazione destinazione "ResolveOutputs" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 18)
+Destinazione "_ResolveIcons: (ID destinazione: 19)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "_ResolveResources" dipende da essa):
+Attività "CreateItem" (ID attività:24)
+  Parametro attività:Include=..\HelloKitto_Icon.ico (ID attività:24)
+Esecuzione attività "CreateItem" completata. (ID attività:24)
+Attività "CreateItem" (ID attività:25)
+  Parametro attività:Include=true (ID attività:25)
+Esecuzione attività "CreateItem" completata. (ID attività:25)
+Compilazione destinazione "_ResolveIcons" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 19)
+Destinazione "_ResolveResources: (ID destinazione: 20)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "ResolveResources" dipende da essa):
+Attività "CreateItem" ignorata. Condizione false. (( '%(EXTENSION)'=='.rc' ) ) ha restituito (( ''=='.rc' ) ).
+Attività "CreateItem" ignorata. Condizione false. ( '%(EXTENSION)'=='.dfm' or '%(EXTENSION)'=='.nfm' ) ha restituito ( ''=='.dfm' or ''=='.nfm' ).
+Attività "CreateItem" ignorata. Condizione false. (( '%(EXTENSION)'=='.rc' ) ) ha restituito (( ''=='.rc' ) ).
+Attività "CreateItem" ignorata. Condizione false. (( '%(EXTENSION)'=='.res' ) ) ha restituito (( ''=='.res' ) ).
+Compilazione destinazione "_ResolveResources" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 20)
+Destinazione "ResolveResources: (ID destinazione: 21)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "ResolveFiles" dipende da essa):
+Attività "CreateItem" ignorata. Condizione false. (( '%(EXTENSION)'=='.licx' )) ha restituito (( ''=='.licx' )).
+Compilazione destinazione "ResolveResources" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 21)
+Destinazione "ResolveLocalResources: (ID destinazione: 22)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "ResolveFiles" dipende da essa):
+Compilazione destinazione "ResolveLocalResources" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 22)
+Destinazione "ResolvePaths: (ID destinazione: 23)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "ResolveFiles" dipende da essa):
+Attività "RemoveDuplicates" ignorata. Condizione false. (( ( '%(EXTENSION)'=='.dfm' or '%(EXTENSION)'=='.nfm' ) And '%(RelativeDir)'!='' ) ) ha restituito (( ( ''=='.dfm' or ''=='.nfm' ) And ''!='' ) ).
+Attività "RemoveDuplicates" ignorata. Condizione false. (( '%(EXTENSION)'=='.pas' And '%(RelativeDir)'!='' ) ) ha restituito (( ''=='.pas' And ''!='' ) ).
+Compilazione destinazione "ResolvePaths" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 23)
+Destinazione "_ResolveReferences: (ID destinazione: 24)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "ResolveReferences" dipende da essa):
+Attività "CreateItem" ignorata. Condizione false. (('%(Reference.LinkUnits)'==false)) ha restituito ((''==false)).
+Compilazione destinazione "_ResolveReferences" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 24)
+Destinazione "ResolveReferences: (ID destinazione: 25)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "ResolveFiles" dipende da essa):
+Attività "CreateProperty" ignorata. Condizione false. ('$(UsePackages)'==true Or '$(DCC_EnabledPackages)'=='true') ha restituito (''==true Or ''=='true').
+Compilazione destinazione "ResolveReferences" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 25)
+Destinazione "ResolveFiles: (ID destinazione: 26)" nel file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "CoreBuild" dipende da essa):
+Compilazione destinazione "ResolveFiles" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 26)
+Destinazione "__CreateVerOutputName: (ID destinazione: 27)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "__BuildRCFile" dipende da essa):
+Attività "CreateItem" (ID attività:26)
+  Parametro attività:Include=HelloKitto.vrc (ID attività:26)
+Esecuzione attività "CreateItem" completata. (ID attività:26)
+Compilazione destinazione "__CreateVerOutputName" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 27)
+Destinazione "__SetVersionResourceFileName: (ID destinazione: 28)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "__ResourceVersionResDepCheck" dipende da essa):
+Attività "CreateItem" (ID attività:27)
+  Parametro attività:Include=HelloKitto.vrc (ID attività:27)
+Esecuzione attività "CreateItem" completata. (ID attività:27)
+Attività "CreateItem" (ID attività:28)
+  Parametro attività:Include=HelloKitto.$manifest (ID attività:28)
+Esecuzione attività "CreateItem" completata. (ID attività:28)
+Attività "CreateItem" (ID attività:29)
+  Parametro attività:Include=HelloKitto.res (ID attività:29)
+Esecuzione attività "CreateItem" completata. (ID attività:29)
+Compilazione destinazione "__SetVersionResourceFileName" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 28)
+Destinazione "__ResourceVersionResDepCheck: (ID destinazione: 29)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "__BuildShouldBuildVersion" dipende da essa):
+Verrà utilizzata l'attività "DependencyCheck" dall'assembly "C:\BDS\Studio\22.0\bin\Borland.Build.Tasks.Shared.dll".
+Attività "DependencyCheck" (ID attività:30)
+  Parametro attività:InputFiles=D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj (ID attività:30)
+  Parametro attività:OutputFile=HelloKitto.res
+                  OriginalItemSpec=HelloKitto.res (ID attività:30)
+  Parametro attività:ProjectFileName=D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj (ID attività:30)
+  Parametro attività:Build=True (ID attività:30)
+  Parametro attività:KibitzTask=false (ID attività:30)
+Esecuzione attività "DependencyCheck" completata. (ID attività:30)
+Compilazione destinazione "__ResourceVersionResDepCheck" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 29)
+Destinazione "__BuildShouldBuildVersion: (ID destinazione: 30)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "__BuildRCFile" dipende da essa):
+Compilazione destinazione "__BuildShouldBuildVersion" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 30)
+Destinazione "__BuildRCFile: (ID destinazione: 31)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "BuildVersionResource" dipende da essa):
+Attività "CallTarget" (ID attività:31)
+  Parametro attività:Targets=_BuildRCFile (ID attività:31)
+Destinazione "_BuildRCFile: (ID destinazione: 32)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "__BuildRCFile" dipende da essa):
+Verrà utilizzata l'attività "CreateRcFile" dall'assembly "C:\BDS\Studio\22.0\bin\Borland.Build.Tasks.Shared.dll".
+Attività "CreateRcFile" (ID attività:32)
+  Parametro attività:OutputFile=HelloKitto.vrc
+                  OriginalItemSpec=HelloKitto.vrc (ID attività:32)
+  Parametro attività:IncludeVerInfo=True (ID attività:32)
+  Parametro attività:MajorVer=3 (ID attività:32)
+  Parametro attività:Locale=1033 (ID attività:32)
+  Parametro attività:KeysString=CompanyName=Ethea S.r.l.;FileDescription=;FileVersion=3.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=3.0;Comments= (ID attività:32)
+  Parametro attività:ManifestFile=C:\BDS\Studio\22.0\bin\default_app.manifest (ID attività:32)
+  Parametro attività:Icon=..\HelloKitto_Icon.ico (ID attività:32)
+  Parametro attività:ResourcePlatform=Win32 (ID attività:32)
+  Parametro attività:TargetedPlatforms=1 (ID attività:32)
+Esecuzione attività "CreateRcFile" completata. (ID attività:32)
+Compilazione destinazione "_BuildRCFile" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 32)
+Esecuzione attività "CallTarget" completata. (ID attività:31)
+Compilazione destinazione "__BuildRCFile" nel progetto "HelloKitto.dproj" completata.: (ID destinazione: 31)
+Destinazione "BuildVersionResource: (ID destinazione: 33)" nel file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" dal progetto "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (la destinazione "CoreBuild" dipende da essa):
+Verrà utilizzata l'attività "BRCC32" dall'assembly "C:\BDS\Studio\22.0\bin\Borland.Build.Tasks.Shared.dll".
+Attività "BRCC32" (ID attività:33)
+  Task Parameter:
+      Compile=
+          HelloKitto.vrc
+                  OriginalItemSpec=HelloKitto.vrc (TaskId:33)
+  Task Parameter:ForceExecute=True (TaskId:33)
+  Task Parameter:CompilerToUse=rc (TaskId:33)
+  Task Parameter:CodePage=65001 (TaskId:33)
+  Task Parameter:ProjectFileName=D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj (TaskId:33)
+  Task Parameter:
+      ResFiles=
+          HelloKitto.res
+                  OriginalItemSpec=HelloKitto.res (TaskId:33)
+  C:\BDS\Studio\22.0\bin\cgrc.exe -c65001 HelloKitto.vrc -foHelloKitto.res  (TaskId:33)
+  CodeGear Resource Compiler/Binder (TaskId:33)
+  Version 1.2.2 Copyright (c) 2008-2012 Embarcadero Technologies Inc. (TaskId:33)
+   (TaskId:33)
+  Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0 (TaskId:33)
+   (TaskId:33)
+  Copyright (C) Microsoft Corporation.  All rights reserved. (TaskId:33)
+   (TaskId:33)
+   (TaskId:33)
+Done executing task "BRCC32". (TaskId:33)
+Using "Delete" task from assembly "Microsoft.Build.Tasks, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+Task "Delete" (TaskId:34)
+  Task Parameter:
+      Files=
+          HelloKitto.vrc
+                  OriginalItemSpec=HelloKitto.vrc (TaskId:34)
+  Deleting file "HelloKitto.vrc". (TaskId:34)
+  Command: (TaskId:34)
+  del "HelloKitto.vrc" (TaskId:34)
+Done executing task "Delete". (TaskId:34)
+Task "Delete" (TaskId:35)
+  Task Parameter:
+      Files=
+          HelloKitto.$manifest
+                  OriginalItemSpec=HelloKitto.$manifest (TaskId:35)
+  Deleting file "HelloKitto.$manifest". (TaskId:35)
+  Command: (TaskId:35)
+  del "HelloKitto.$manifest" (TaskId:35)
+Done executing task "Delete". (TaskId:35)
+Done building target "BuildVersionResource" in project "HelloKitto.dproj".: (TargetId:33)
+Target "BuildProjectResourceFile" skipped, due to false condition; ('@(RcItem)'!='') was evaluated as (''!='').
+Target "Win32ResourceDependencies" skipped, due to false condition; ('@(RcCompile)'!='') was evaluated as (''!='').
+Target "BrccCompile" skipped, due to false condition; ('@(RcCompile)'!='') was evaluated as (''!='').
+Target "BuildLicenseFile" skipped, due to false condition; ( '@(_LicxFiles)'!='' ) was evaluated as ( ''!='' ).
+Target "ResourceBuild: (TargetId:34)" in file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "CoreBuild" depends on it):
+Done building target "ResourceBuild" in project "HelloKitto.dproj".: (TargetId:34)
+Target "PreBuildEvent" skipped, due to false condition; ( '$(PreBuildEvent)'!='' And '$(KibitzCompile)'=='') was evaluated as ( ''!='' And ''=='').
+Target "_PreOutputTimeStamp: (TargetId:35)" in file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "CoreBuild" depends on it):
+Task "CreateItem" (TaskId:36)
+  Task Parameter:Include=2022-08-09 17:33:42.8590252 (TaskId:36)
+Done executing task "CreateItem". (TaskId:36)
+Done building target "_PreOutputTimeStamp" in project "HelloKitto.dproj".: (TargetId:35)
+Target "_RunUserTools: (TargetId:36)" in file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "CoreBuild" depends on it):
+Task "InvokeMSBuild" skipped, due to false condition; (!Exists($(MSBuildProjectFullPath)) And '%(UserTool.ToolName)'!='' And '$(FileToCompile)'=='') was evaluated as (!Exists(D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj) And ''!='' And ''=='').
+Task "MSBuild" skipped, due to false condition; (Exists($(MSBuildProjectFullPath)) And '%(UserTool.ToolName)'!='' And '$(FileToCompile)'=='') was evaluated as (Exists(D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj) And ''!='' And ''=='').
+Task "InvokeMSBuild" skipped, due to false condition; (!Exists($(MSBuildProjectFullPath)) And '@(InputFile)'!='' And '%(InputFile.ToolName)'!='') was evaluated as (!Exists(D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj) And 'D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj'!='' And ''!='').
+Task "MSBuild" skipped, due to false condition; (Exists($(MSBuildProjectFullPath)) And '@(InputFile)'!='' And '%(InputFile.ToolName)'!='') was evaluated as (Exists(D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj) And 'D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj'!='' And ''!='').
+Done building target "_RunUserTools" in project "HelloKitto.dproj".: (TargetId:36)
+Target "_RidlDepCheck: (TargetId:37)" in file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "RidlCompile" depends on it):
+Task "DependencyCheck" (TaskId:37)
+  Task Parameter:OutputFile=HelloKitto.tlb (TaskId:37)
+  Task Parameter:ProjectFileName=D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj (TaskId:37)
+  Task Parameter:AllOrNone=True (TaskId:37)
+  Task Parameter:Build=True (TaskId:37)
+Done executing task "DependencyCheck". (TaskId:37)
+Task "MessageMap" skipped, due to false condition; ('@(SkippedRidlFiles)'!='') was evaluated as (''!='').
+Task "MessageMap" skipped, due to false condition; ('@(RidlFiles)'!='' And '$(ForceRebuild)'!='true') was evaluated as (''!='' And 'true'!='true').
+Done building target "_RidlDepCheck" in project "HelloKitto.dproj".: (TargetId:37)
+Target "RidlCompile: (TargetId:38)" in file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "CoreBuild" depends on it):
+Task "CallTarget" (TaskId:38)
+  Task Parameter:Targets=_RidlCoreCompile (TaskId:38)
+Target "_ResolveGENTLBBindings: (TargetId:39)" in file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "_RidlCoreCompile" depends on it):
+Task "CreateItem" (TaskId:39)
+  Task Parameter:Include=HelloKitto_TLB.pas (TaskId:39)
+Done executing task "CreateItem". (TaskId:39)
+Done building target "_ResolveGENTLBBindings" in project "HelloKitto.dproj".: (TargetId:39)
+Target "_RidlCoreCompile: (TargetId:40)" in file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "RidlCompile" depends on it):
+Task "GenTLB" skipped, due to false condition; ('@(RidlFiles)'!='') was evaluated as (''!='').
+Done building target "_RidlCoreCompile" in project "HelloKitto.dproj".: (TargetId:40)
+Done executing task "CallTarget". (TaskId:38)
+Done building target "RidlCompile" in project "HelloKitto.dproj".: (TargetId:38)
+Target "_PasCoreCompile: (TargetId:41)" in file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "CoreBuild" depends on it):
+Using "DCC" task from assembly "C:\BDS\Studio\22.0\bin\Borland.Build.Tasks.Delphi.dll".
+Task "DCC" (TaskId:40)
+  Task Parameter:
+      DelphiCompile=
+          HelloKitto.dpr
+                  MainSource=MainSource (TaskId:40)
+  Task Parameter:PlatformTarget=Win32 (TaskId:40)
+  Task Parameter:ExeOutput=..\..\Home (TaskId:40)
+  Task Parameter:BplOutput=C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\ (TaskId:40)
+  Task Parameter:DcuOutput=..\..\Lib\\Release\Win32\ (TaskId:40)
+  Task Parameter:DcpOutput=C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp\ (TaskId:40)
+  Task Parameter:HppOutput=C:\Users\Public\Documents\Embarcadero\Studio\22.0\hpp\Win32\ (TaskId:40)
+  Task Parameter:ObjOutput=..\..\Lib\\Release\Win32\ (TaskId:40)
+  Task Parameter:BpiOutput=C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp\ (TaskId:40)
+  Task Parameter:
+      FileReference=
+          ..\..\Source\Controllers.pas
+                  OriginalItemSpec=..\..\Source\Controllers.pas
+          ..\..\Source\Rules.pas
+                  OriginalItemSpec=..\..\Source\Rules.pas
+          ..\..\Source\UseKitto.pas
+                  OriginalItemSpec=..\..\Source\UseKitto.pas (TaskId:40)
+  Task Parameter:ProjectFileName=D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj (TaskId:40)
+  Task Parameter:OutputExt=.exe (TaskId:40)
+  Task Parameter:CompileForBCB=False (TaskId:40)
+  Task Parameter:UnitSearchPath=..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32 (TaskId:40)
+  Task Parameter:ResourcePath=..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32 (TaskId:40)
+  Task Parameter:IncludePath=..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32 (TaskId:40)
+  Task Parameter:ObjPath=..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322;d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release;C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32 (TaskId:40)
+  Task Parameter:UnitAlias=Generics.Collections=System.Generics.Collections;Generics.Defaults=System.Generics.Defaults;WinTypes=Winapi.Windows;WinProcs=Winapi.Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE (TaskId:40)
+  Task Parameter:Define=RELEASE;;FRAMEWORK_VCL (TaskId:40)
+  Task Parameter:BuildAllUnits=True (TaskId:40)
+  Task Parameter:Namespace=System;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;Data.Win;; (TaskId:40)
+  Task Parameter:Quiet=True (TaskId:40)
+  Task Parameter:NoConfig=True (TaskId:40)
+  Task Parameter:DebugInformation=0 (TaskId:40)
+  Task Parameter:WriteableConstants=True (TaskId:40)
+  Task Parameter:LocalDebugSymbols=False (TaskId:40)
+  Task Parameter:SymbolReferenceInfo=0 (TaskId:40)
+  Task Parameter:ImageBase=00400000 (TaskId:40)
+  Task Parameter:SYMBOL_PLATFORM=false (TaskId:40)
+  Task Parameter:DUPLICATE_CTOR_DTOR=false (TaskId:40)
+  C:\BDS\Studio\22.0\bin\dcc32.exe -$J+ -$D0 -$L- -$Y- --no-config -B -Q -TX.exe -AGenerics.Collections=System.Generics.Collections;Generics.Defaults=System.Generics.Defaults;WinTypes=Winapi.Windows;WinProcs=Winapi.Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE -DRELEASE;;FRAMEWORK_VCL -E..\..\Home -I..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;"C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322";d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;"D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release";C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32 -LEC:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl -LNC:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp -NU..\..\Lib\\Release\Win32 -NSSystem;Xml;Data;Datasnap;Web;Soap;Winapi;System.Win;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;Data.Win; -O..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;"C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322";d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;"D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release";C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32 -R..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;"C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322";d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;"D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release";C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32 -U..\..\..\..\Source;..\..\..\..\Source\EF;..\..\..\..\Source\Ext;..\..\..\..\Source\ThirdParty;c:\bds\studio\22.0\lib\Win32\release;D:\Users\carlo\Documents\Embarcadero\Studio\22.0\Imports;C:\BDS\Studio\22.0\Imports;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp;C:\BDS\Studio\22.0\include;"C:\Program Files (x86)\Raize\CS5\Lib\RX11\Win322";d:\ethea\xlssuit6\package\ddx111;c:\users\public\documents\embarcadero\studio\22.0\bpl;D:\ETHEA\Skia4Delphi\Source;D:\ETHEA\Skia4Delphi\Source\FMX;D:\ETHEA\Skia4Delphi\Source\VCL;D:\ETHEA\Skia4Delphi\Source\FMX\Designtime;D:\ETHEA\Skia4Delphi\Source\VCL\Designtime;"D:\ETHEA\Skia4Delphi\Library\RAD Studio 11 Alexandria\Win32\Release";C:\BDS\Studio\22.0\RBuilder\Lib\Win32;D:\ETHEA\ODAC\D11\Lib\Win32;D:\ETHEA\ODAC\D11\Bin\Win32;D:\ETHEA\FlexCelVCLNT\Source\Report;C:\BDS\Studio\22.0\CatalogRepository\KonopkaControls-280-7.0\Lib\RX11\Win32 -K00400000 -NBC:\Users\Public\Documents\Embarcadero\Studio\22.0\Dcp -NHC:\Users\Public\Documents\Embarcadero\Studio\22.0\hpp\Win32 -NO..\..\Lib\\Release\Win32 -W-SYMBOL_PLATFORM -W-DUPLICATE_CTOR_DTOR  HelloKitto.dpr    (TaskId:40)
+  Embarcadero Delphi for Win32 compiler version 35.0 (TaskId:40)
+  Copyright (c) 1983,2022 Embarcadero Technologies, Inc. (TaskId:40)
+D:\ETHEA\Kitto3Ent\Source\Kitto.Ext.Login.pas(56): Hint warning H2219: Private symbol 'ReplaceMacros' declared but never used [D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj]
+  86428 lines, 0.88 seconds, 8207104 bytes code, 269340 bytes data. (TaskId:40)
+Done executing task "DCC". (TaskId:40)
+Done building target "_PasCoreCompile" in project "HelloKitto.dproj".: (TargetId:41)
+Target "__SetAndroidManifestSettings: (TargetId:42)" in file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "BuildAndroidManifestList" depends on it):
+Done building target "__SetAndroidManifestSettings" in project "HelloKitto.dproj".: (TargetId:42)
+Target "BuildAndroidManifestList: (TargetId:43)" in file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "CoreBuild" depends on it):
+Task "CreateAndroidManifestFile" skipped, due to false condition; ('$(ShouldCreateManifestFile)'=='true') was evaluated as (''=='true').
+Done building target "BuildAndroidManifestList" in project "HelloKitto.dproj".: (TargetId:43)
+Target "BuildAndroidServiceJarFile" skipped, due to false condition; (('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') And '$(AndroidServiceType)'!='') was evaluated as (('Win32'=='Android' Or 'Win32'=='Android64') And ''!='').
+Target "BuildClassesDex" skipped, due to false condition; (('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') And (('$(AppType)'=='Application') Or ('$(AppType)'=='Console'))) was evaluated as (('Win32'=='Android' Or 'Win32'=='Android64') And (('Application'=='Application') Or ('Application'=='Console'))).
+Target "_PostOutputTimeStamp: (TargetId:44)" in file "C:\BDS\Studio\22.0\bin\CodeGear.Common.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "CoreBuild" depends on it):
+Task "CreateItem" (TaskId:41)
+  Task Parameter:Include=2022-08-09 18:26:10.5942624 (TaskId:41)
+Done executing task "CreateItem". (TaskId:41)
+Done building target "_PostOutputTimeStamp" in project "HelloKitto.dproj".: (TargetId:44)
+Target "PostBuildEvent" skipped, due to false condition; ( '$(PostBuildEvent)'!=''  And '$(KibitzCompile)'==''
+      And '$(CLANG_CompileOnlyPCH)'!='true'
+      and ( '$(PostBuildEventExecuteWhen)'=='Always' or '$(PostBuildEventExecuteWhen)'=='' or '$(PreOutputTimeStamp)'!='$(PostOutputTimeStamp)' )) was evaluated as ( ''!=''  And ''==''
+      And ''!='true'
+      and ( ''=='Always' or ''=='' or '2022-08-09 17:33:42.8590252'!='2022-08-09 18:26:10.5942624' )).
+Target "_DeleteLnkFile: (TargetId:45)" in file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "CoreBuild" depends on it):
+Task "Delete" (TaskId:42)
+Done executing task "Delete". (TaskId:42)
+Done building target "_DeleteLnkFile" in project "HelloKitto.dproj".: (TargetId:45)
+Target "GenOSX64Outputs" skipped, due to false condition; ('$(Platform)'=='$(cOSXArm64Platform)' And ('$(DCC_GenerateOSXUniversalBinaryFile)'=='true' Or '$(BCC_GenerateOSXUniversalBinaryFile)'=='true')) was evaluated as ('Win32'=='OSXARM64' And (''=='true' Or ''=='true')).
+Target "GenAndroid32Outputs" skipped, due to false condition; ('$(Platform)'=='$(cAndroidArm64Platform)' And ('$(DCC_GenerateAndroidAppBundleFile)'=='true' Or '$(BCC_GenerateAndroidAppBundleFile)'=='true')) was evaluated as ('Win32'=='Android64' And (''=='true' Or ''=='true')).
+Target "CoreBuild: (TargetId:46)" in file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (target "Build" depends on it):
+Done building target "CoreBuild" in project "HelloKitto.dproj".: (TargetId:46)
+Target "AutoIncBuildNumber" skipped, due to false condition; ('$(VerInfo_AutoIncVersion)'=='true' And (('$(Platform)'!='$(cAndroidArm32Platform)' And '$(Platform)'!='$(cAndroidArm64Platform)') Or
+      (('$(Platform)'=='$(cAndroidArm32Platform)' Or '$(Platform)'=='$(cAndroidArm64Platform)') And '$(BT_BuildType)'=='AppStore'))) was evaluated as (''=='true' And (('Win32'!='Android' And 'Win32'!='Android64') Or
+      (('Win32'=='Android' Or 'Win32'=='Android64') And 'Debug'=='AppStore'))).
+Target "Build: (TargetId:47)" in file "C:\BDS\Studio\22.0\Bin\CodeGear.Delphi.Targets" from project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (entry point):
+Done building target "Build" in project "HelloKitto.dproj".: (TargetId:47)
+Done Building Project "D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (Build target(s)).
+
+
+Riepilogo prestazioni progetto:
+     1174 ms  D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj   1 chiamate
+               1174 ms  Build                                      1 chiamate
+
+Riepilogo prestazioni destinazione:
+        0 ms  ResolveLocalResources                      1 chiamate
+        0 ms  _ResolveResources                          1 chiamate
+        0 ms  CreateLocalDirectories                     1 chiamate
+        0 ms  ResourceBuild                              1 chiamate
+        0 ms  _CheckBuildEnvironment                     1 chiamate
+        0 ms  _ResolveGENTLBBindings                     1 chiamate
+        0 ms  _GatherPlatformSDKPaths                    1 chiamate
+        0 ms  CoreBuild                                  1 chiamate
+        0 ms  _ResolveInput                              1 chiamate
+        0 ms  _CheckPlatformVariable                     1 chiamate
+        0 ms  __SetAndroidManifestSettings               1 chiamate
+        0 ms  _DeleteLnkFile                             1 chiamate
+        0 ms  _PreOutputTimeStamp                        1 chiamate
+        0 ms  _ResolveReferences                         1 chiamate
+        0 ms  ResolvePaths                               1 chiamate
+        0 ms  Build                                      1 chiamate
+        0 ms  ResolveFiles                               1 chiamate
+        0 ms  __BuildShouldBuildVersion                  1 chiamate
+        0 ms  ResolveResources                           1 chiamate
+        0 ms  BuildAndroidManifestList                   1 chiamate
+        0 ms  ResolveReferences                          1 chiamate
+        0 ms  CreateDirectories                          1 chiamate
+        0 ms  _ResolveUserTool                           1 chiamate
+        1 ms  __SetVersionResourceFileName               1 chiamate
+        1 ms  _RidlCoreCompile                           1 chiamate
+        1 ms  _CollapsePaths                             1 chiamate
+        1 ms  RidlCompile                                1 chiamate
+        1 ms  _VerifyPlatformSDKFile                     1 chiamate
+        1 ms  _RunUserTools                              1 chiamate
+        1 ms  _PostOutputTimeStamp                       1 chiamate
+        1 ms  ResolveInputs                              1 chiamate
+        1 ms  _CollectFrameworks                         1 chiamate
+        1 ms  _ResolveIcons                              1 chiamate
+        1 ms  __CreateVerOutputName                      1 chiamate
+        2 ms  __ResourceVersionResDepCheck               1 chiamate
+        2 ms  _RidlDepCheck                              1 chiamate
+        2 ms  CreateProjectDirectories                   1 chiamate
+        3 ms  _CheckPlatformSDK                          1 chiamate
+        4 ms  ResolveSources                             1 chiamate
+        6 ms  ResolveOutputs                             1 chiamate
+        7 ms  _BuildRCFile                               1 chiamate
+        8 ms  _PlatformExists                            1 chiamate
+        8 ms  __BuildRCFile                              1 chiamate
+        9 ms  SetBuildOptions                            1 chiamate
+      149 ms  BuildVersionResource                       1 chiamate
+      954 ms  _PasCoreCompile                            1 chiamate
+
+Riepilogo prestazioni attività:
+        0 ms  FrameworkBuilder                           1 chiamate
+        1 ms  MakeDir                                    1 chiamate
+        1 ms  ExpandItemNoDups                           3 chiamate
+        1 ms  ContainsString                             1 chiamate
+        2 ms  CreateProperty                             3 chiamate
+        3 ms  DependencyCheck                            2 chiamate
+        5 ms  Delete                                     3 chiamate
+        7 ms  CreateRcFile                               1 chiamate
+        9 ms  CreateItem                                21 chiamate
+       12 ms  CallTarget                                 3 chiamate
+      144 ms  BRCC32                                     1 chiamate
+      953 ms  DCC                                        1 chiamate
+
+Compilazione completata.
+
+"D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj" (destinazione: Build) (1) ->
+(destinazione: _PasCoreCompile) -> 
+  D:\ETHEA\Kitto3Ent\Source\Kitto.Ext.Login.pas(56): Hint warning H2219: Private symbol 'ReplaceMacros' declared but never used [D:\ETHEA\Kitto3Ent\Examples\HelloKitto\Projects\D11\HelloKitto.dproj]
+
+    Avvisi: 1
+    Errori: 0
+
+Tempo trascorso 00:00:01.20

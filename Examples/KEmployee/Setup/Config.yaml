@@ -1,8 +1,8 @@
-﻿AppName: KEmployee2
+﻿AppName: KEmployee3
 AppTitle: Employee demo
 AppIcon: FireBirdSql_120
 # Default is the application name in lower case.
-AppPath: /kemployee
+AppPath: /kemployee3
 Application:
   # When using partial proxy mode (serving /hellokitto/res/ from a separate web server)
   # you can set this to False to gain some speed. Default is True.
@@ -24,6 +24,17 @@ Defaults:
     MinFieldWidth: 6
 
 Databases:
+  Main: FD
+    Connection:
+      # Example for FireDAC
+      DriverID: FB
+      Database: EMPLOYEE
+      User_Name: SYSDBA
+      Password: masterkey
+      Server: localhost
+      #CharacterSet: UTF8
+      Protocol: TCPIP
+
   Old: DBX
     Connection:
       # Example for DbExpress
@@ -35,17 +46,6 @@ Databases:
       WaitOnLocks: True
       IsolationLevel: ReadCommitted
       Trim Char: False
-
-  Main: FD
-    Connection:
-      # Example for FireDAC
-      DriverID: FB
-      Database: EMPLOYEE
-      User_Name: SYSDBA
-      Password: masterkey
-      Server: localhost
-      #CharacterSet: UTF8
-      Protocol: TCPIP
 
 Auth: TextFile
   IsPassepartoutEnabled: True
@@ -69,9 +69,9 @@ Login:
             <p><H1>Firebird Employee Demo</H1></p>
             <p/>
           </div>
+    ExtraWidth: 400
     LabelWidth: 150
-    EditWidth: 200
-    ExtraHeight: 100
+    ExtraHeight: 210
     LocalStorage:
       Mode: Password
       AskUser: True
@@ -104,7 +104,7 @@ Log:
     IsEnabled: True
 
 Server:
-  Port: 2603
+  Port: 3603
   # default 20
   ThreadPoolSize: 15
 

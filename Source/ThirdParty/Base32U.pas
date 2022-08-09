@@ -36,11 +36,11 @@ type
     /// <returns>
     ///   Unicode string containing the Base32 string encoded from that UTF8-Input
     /// </returns>
-    class function Encode(const InString: UTF8String): string;
+    class function Encode(const InString: String): string;
     /// <summary>
     ///   Same as Encode but cleans up the trailing "=" at the end of the string.
     /// </summary>
-    class function EncodeWithoutPadding(const InString: UTF8String): string;
+    class function EncodeWithoutPadding(const InString: String): string;
   end;
 
 // As the FromBase32String Function doesn't has the result I'm looking for, here
@@ -79,7 +79,7 @@ begin
   end;
 end;
 
-function Base32Encode(str: UTF8String): string;
+function Base32Encode(str: String): string;
 var
   B: Int64;
   i, j, len: Integer;
@@ -121,12 +121,12 @@ begin
   Result := Base32Decode(inString);
 end;
 
-class function Base32.Encode(const inString: UTF8String): string;
+class function Base32.Encode(const inString: String): string;
 begin
   Result := Base32Encode(inString);
 end;
 
-class function Base32.EncodeWithoutPadding(const InString: UTF8String): string;
+class function Base32.EncodeWithoutPadding(const InString: String): string;
 begin
   Result := StringReplace(Base32Encode(inString),'=','',[rfReplaceAll]);
 end;

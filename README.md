@@ -11,7 +11,7 @@ Related links: https://www.embarcadero.com/ - https://learndelphi.org/
 
 The major differences of Kitto<sup>3</sup>, compared to Kitto<sup>2</sup> is the use of ExtJS 7.X client Library instead of ExtJS 6.X.
 
-Kitto<sup>3</sup> is aimed at **Delphi** developers that need to create web or mobile applications without delving into the intricacies of HTML, CSS, Javascript or learning to use a particular library such as ExtJS6, yet it allows access to the bare metal if required.
+Kitto<sup>3</sup> is aimed at **Delphi** developers that need to create web or mobile applications without delving into the intricacies of HTML, CSS, Javascript or learning to use a particular library such as ExtJS, yet it allows access to the bare metal if required.
 
 Kitto<sup>3</sup> includes a **database-agnostic** data-access layer, allowing to create applications that work on any database engine and port applications between database engines.
 

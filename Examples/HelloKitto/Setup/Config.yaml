@@ -1,8 +1,8 @@
-﻿AppName: HelloKitto2
+﻿AppName: HelloKitto3
 AppTitle: _(Peoria Dolls)
 AppIcon: HelloKittoIcon
 # Default is the application name in lower case.
-AppPath: /hellokitto
+AppPath: /hellokitto3
 Application:
   # When using partial proxy mode (serving /hellokitto/res/ from a separate web server)
   # you can set this to False to gain some speed. Default is True.
@@ -70,6 +70,7 @@ Databases:
 Auth: DB
   IsPassepartoutEnabled: True
   PassepartoutPassword: password
+  IsClearPassword: False
   .Defaults:
     UserName: administrator
     Password: password
@@ -80,7 +81,7 @@ LanguagePerSession: True
 
 Login:
   Controller:
-    Title: %Config:AppTitle% %APP_VERSION%
+    Title: Login to "HelloKitto" %APP_VERSION%
     NorthController: HtmlPanel
       Height: 80
       Html: |
@@ -91,7 +92,8 @@ Login:
         </div>
     LabelWidth: 150
     EditWidth: 200
-    ExtraHeight: 50
+    ExtraHeight: 100
+    ExtraWidth: 350
     LocalStorage:
       Mode: Password
       AskUser: True
@@ -117,12 +119,22 @@ LanguagePerSession: True
 # Either utf-8 or a SBCS corresponding to the system code page
 # (such as iso-8859-1 for Western Europe). Defaults to utf-8.
 Charset: utf-8
+UserFormats:
+  Date: dd/mm/yyyy
+  Time: hh:nn
 
 Log:
   # low, medium, high, detailed, debug
   Level: detailed
+  TextFile:
+    FileName: %APP_PATH%log.txt
+    # Set this to false to disable this logger without deleting its configuration.
+    IsEnabled: True
+  Console:
+    IsEnabled: True
+
 Server:
-  Port: 2601
+  Port: 3601
   # default 20
   ThreadPoolSize: 15
 
@@ -132,4 +144,3 @@ Engine:
     TimeOut: 10
     # Seconds after wich the cleanup of inactive sessions kicks in. Defaults to 30.
     CleanupInterval: 30
-

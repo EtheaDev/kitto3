@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "HelloKitto"
-#define MyAppVersion "2.0"
+#define MyAppVersion "3.0"
 #define MyAppPublisher "Ethea S.r.l."
 #define MyAppURL "http://www.ethea.it/"
 #define MyAppExeName "HelloKitto.exe"
@@ -11,7 +11,7 @@
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{97C81C6A-4495-4F63-A12F-A2CD09EFEA2A}
+AppId={{D825CEDE-0A82-449C-8067-59D791DDC9A6}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -19,9 +19,9 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName=C:\Kitto2Apps\{#MyAppName}
+DefaultDirName=C:\Kitto3Apps\{#MyAppName}
 DefaultGroupName={#MyAppName}
-OutputBaseFilename=SetupHelloKitto
+OutputBaseFilename=SetupHelloKitto3
 Compression=lzma
 SolidCompression=yes
 WizardImageFile=WizKittoImage.bmp
@@ -55,6 +55,9 @@ Source: "..\Home\Resources\*"; DestDir: "{app}\Home\Resources"; Flags: ignorever
 
 ;Custom Config copy for deployment: comparetimestamp so don't replace if file was changed directly on web-server
 Source: "Config.yaml"; DestDir: "{app}\Home\Metadata"; Flags: ignoreversion comparetimestamp uninsneveruninstall; Permissions: users-modify
+
+;Custom dll for access to firebird
+Source: "dbxfb.dll"; DestDir: "{app}\Home"; Flags: ignoreversion comparetimestamp uninsneveruninstall;
 
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 

@@ -1,8 +1,8 @@
-﻿AppName: HelloKitto2
+﻿AppName: HelloKitto3
 AppTitle: _(Peoria Dolls)
 AppIcon: HelloKittoIcon
 # Default is the application name in lower case.
-AppPath: /hellokitto
+AppPath: /hellokitto3
 Application:
   # When using partial proxy mode (serving /hellokitto/res/ from a separate web server)
   # you can set this to False to gain some speed. Default is True.
@@ -138,7 +138,7 @@ Log:
     IsEnabled: True
 
 Server:
-  Port: 2601
+  Port: 3601
   # default 20
   ThreadPoolSize: 15
 

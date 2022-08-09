@@ -1,8 +1,8 @@
-﻿AppName: Taskitto2
+﻿AppName: Taskitto3
 AppTitle: Tasks & Activities
 
 # Default is the application name in lower case.
-AppPath: /taskitto
+AppPath: /taskitto3
 Application:
 # When using partial proxy mode (serving /hellokitto/res/ from a separate web server)
 # you can set this to False to gain some speed. Default is True.
@@ -142,11 +142,12 @@ Login: LoginView
 
 ExtJS:
   #Theme: neptune
-  Theme: triton
-  #Theme: crisp
+  #Theme: triton
+  Theme: crisp
   #Theme: gray
   #Theme: ARIA
   #Theme: material
+  #Theme: graphite
   AjaxTimeout: 100000
 
 # No language Id specified means try to use the language requested by the browser.
@@ -171,7 +172,7 @@ Log:
     IsEnabled: True
 
 Server:
-  Port: 2602
+  Port: 3602
   # default 20
   ThreadPoolSize: 15
 

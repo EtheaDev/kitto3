@@ -426,7 +426,6 @@ begin
     ImpostaFormatFlexCel(LExcelFile);
 
     CreateExcelSheet(LExcelFile, ATableStore, AExcelRangeName, AAcceptFieldEvent, AUseDisplayLabels);
-    LZeroValueForced := False;
     RowNum := 1;
     //Fill the Ado dataset using the records of the store
     for LRecordIndex := 0 to ATableStore.RecordCount -1 do
@@ -482,9 +481,7 @@ procedure TKFlexCelExportEngine.CreateFileByDataSet(const AFileName: string;
   const AUseDisplayLabels: Boolean = False);
 var
   LAcceptRecord, LAcceptField: Boolean;
-  LDestField: TField;
   LSourceField: TField;
-  LZeroValueForced: Boolean;
   LExcelFile : TExcelFile;
   RowNum : integer;
   FmtFlexCel : TFLXFormat;

@@ -230,7 +230,8 @@ end;
 
 function JSONEscape(const AString: string): string;
 begin
-  Result := ReplaceStr(AString, sLineBreak, '\n');
+  Result := ReplaceStr(AString, '\', '\\');
+  Result := ReplaceStr(Result, sLineBreak, '\n');
   Result := ReplaceStr(Result, #10, '\n');
   Result := ReplaceStr(Result, #13, '\n');
 end;

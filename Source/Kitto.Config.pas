@@ -120,6 +120,7 @@ type
     ///   nearby directory named "Kitto". The following paths, relative to the
     ///   executable directory, are searched in order:</para>
     ///   <list type="number">
+    ///     <item>..\..\ext\Kitto3\Home</item>
     ///     <item>..\Externals\Kitto\Home</item>
     ///     <item>..\..\Externals\Kitto\Home</item>
     ///     <item>..\..\..\Home</item>
@@ -650,19 +651,23 @@ begin
   Result := LExePath + '..\Externals\Kitto3\Home\';
   if not DirectoryExists(Result) then
   begin
-    Result := LExePath + '..\..\Externals\Kitto3\Home\';
+    Result := LExePath + '..\..\ext\Kitto3\Home\';
     if not DirectoryExists(Result) then
     begin
-      Result := LExePath + '..\..\..\Home\';
+      Result := LExePath + '..\..\Externals\Kitto3\Home\';
       if not DirectoryExists(Result) then
       begin
-        Result := LExePath + '..\..\..\..\Kitto3\Home\';
+        Result := LExePath + '..\..\..\Home\';
         if not DirectoryExists(Result) then
         begin
-          Result := '%KITTO%\Home\';
-          ExpandEnvironmentVariables(Result);
+          Result := LExePath + '..\..\..\..\Kitto3\Home\';
           if not DirectoryExists(Result) then
-            Result := GetAppHomePath;
+          begin
+            Result := '%KITTO%\Home\';
+            ExpandEnvironmentVariables(Result);
+            if not DirectoryExists(Result) then
+              Result := GetAppHomePath;
+          end;
         end;
       end;
     end;

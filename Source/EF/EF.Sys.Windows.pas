@@ -1688,57 +1688,25 @@ begin
 end;
 
 function IsRunningAsService: Boolean;
-
-  function FindProcess(const ASnapshotHandle: THandle; const APId: DWORD; var AProcessEntry: TProcessEntry32): Boolean;
-  var
-    LContinueLoop: BOOL;
-  begin
-    LContinueLoop := Process32First(ASnapshotHandle, AProcessEntry);
-    while LContinueLoop do
-    begin
-      if AProcessEntry.th32ProcessID = APId then
-        Exit(True);
-      LContinueLoop := Process32Next(ASnapshotHandle, AProcessEntry);
-    end;
-    Result := False;
-  end;
-
 var
-  LCurentProcessId: DWORD;
-  LSnapshotHandle: THandle;
-  LProcessEntry32: TProcessEntry32;
-  LExeName, LPrevExeName: string;
-  LDeadlockProtection: TList<DWORD>;
+  LSessionID, LSize: Cardinal;
+  LToken: THandle;
 begin
-  Result := false;
+  Result := False;
+  LSize := 0;
+  if not OpenProcessToken(GetCurrentProcess, TOKEN_QUERY, LToken) then
+    Exit;
 
-  LSnapshotHandle := CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
   try
-    LDeadlockProtection := TList<DWORD>.Create;
-    try
-      LCurentProcessId := GetCurrentProcessId;
-      LProcessEntry32.dwSize := SizeOf(LProcessEntry32);
-      LExeName := '';
-      while FindProcess(LSnapshotHandle, LCurentProcessId, LProcessEntry32) do
-      begin
-        if LDeadlockProtection.IndexOf(LProcessEntry32.th32ProcessID) > -1 then
-          Break;
-        LDeadlockProtection.Add(LProcessEntry32.th32ProcessID);
+    if not GetTokenInformation(LToken, TokenSessionId, @LSessionID, SizeOf(LSessionID), LSize) then
+      Exit;
 
-        LPrevExeName := LExeName;
-        LExeName := LProcessEntry32.szExeFile;
+    if LSize = 0 then
+      Exit;
 
-        Result := SameText(LExeName, 'services.exe'); // Parent
-        if Result then
-          Exit;
-
-        LCurentProcessId := LProcessEntry32.th32ParentProcessID;
-      end;
-    finally
-      FreeAndNil(LDeadlockProtection);
-  end;
+    Result := LSessionID = 0;
   finally
-    CloseHandle(LSnapshotHandle);
+    CloseHandle(LToken);
   end;
 end;
 

@@ -1,5 +1,5 @@
 {-------------------------------------------------------------------------------
-   Copyright 2012-2021 Ethea S.r.l.
+   Copyright 2012-2023 Ethea S.r.l.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -483,7 +483,10 @@ end;
 
 function TKView.GetDisplayLabel: string;
 begin
-  Result := GetString('DisplayLabel');
+  if TKConfig.Instance.UseAltLanguage then
+    Result := GetString('DisplayLabel2')
+  else
+    Result := GetString('DisplayLabel');
 end;
 
 function TKView.GetImageName: string;

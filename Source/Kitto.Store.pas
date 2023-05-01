@@ -1,5 +1,5 @@
 {-------------------------------------------------------------------------------
-   Copyright 2012-2021 Ethea S.r.l.
+   Copyright 2012-2023 Ethea S.r.l.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -24,6 +24,9 @@ uses
   SysUtils, Types, Classes, DB, Generics.Collections, Generics.Defaults,
   EF.Tree, EF.DB, EF.Types,
   Kitto.Metadata.Models;
+
+const
+  AUTO_ADD_FIELD_SEPARATOR = '.';
 
 type
   TKKey = class;

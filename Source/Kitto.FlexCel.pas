@@ -1,5 +1,5 @@
 {-------------------------------------------------------------------------------
-   Copyright 2019 Ethea S.r.l.
+   Copyright 2019-2023 Ethea S.r.l.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -13,6 +13,10 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -------------------------------------------------------------------------------}
+
+/// <summary>
+///  Flexcel support engine
+/// </summary>
 unit Kitto.FlexCel;
 
 
@@ -426,6 +430,7 @@ begin
     ImpostaFormatFlexCel(LExcelFile);
 
     CreateExcelSheet(LExcelFile, ATableStore, AExcelRangeName, AAcceptFieldEvent, AUseDisplayLabels);
+    LZeroValueForced := False;
     RowNum := 1;
     //Fill the Ado dataset using the records of the store
     for LRecordIndex := 0 to ATableStore.RecordCount -1 do
@@ -481,7 +486,9 @@ procedure TKFlexCelExportEngine.CreateFileByDataSet(const AFileName: string;
   const AUseDisplayLabels: Boolean = False);
 var
   LAcceptRecord, LAcceptField: Boolean;
+  LDestField: TField;
   LSourceField: TField;
+  LZeroValueForced: Boolean;
   LExcelFile : TExcelFile;
   RowNum : integer;
   FmtFlexCel : TFLXFormat;

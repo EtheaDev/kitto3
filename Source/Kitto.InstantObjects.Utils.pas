@@ -1,20 +1,40 @@
+{-------------------------------------------------------------------------------
+   Copyright 2019-2023 Ethea S.r.l.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-------------------------------------------------------------------------------}
 unit Kitto.InstantObjects.Utils;
 
 interface
 
 uses
-  InstantPersistence,
-  CBInstantPersistence,
-  InstantFireDAC,
-  Kitto.Store;
+  InstantPersistence
+  , CBInstantPersistence
+  , InstantFireDAC
+  , EF.DB
+  , Kitto.Store
+  ;
 
 type
-  TInstantKittoConnector = Class
+  TInstantKittoConnector = class
   private
+    FConnection: TEFDBConnection;
     FInstantFireDACConnector: TInstantFireDACConnector;
     function GetInstantFireDACConnector: TInstantFireDACConnector;
+    procedure EnsureConnection;
   public
-    constructor Create;
+    destructor Destroy; override;
+
     property Connector: TInstantFireDACConnector read GetInstantFireDACConnector;
   End;
 
@@ -224,38 +244,47 @@ end;
 
 { TInstantKittoConnector }
 
-constructor TInstantKittoConnector.Create;
-var
-  LFDConnection: TFDConnection;
+destructor TInstantKittoConnector.Destroy;
 begin
-  if TKConfig.Database is TEFDBFDConnection then
-  begin
-    LFDConnection := TKConfig.Database.GetConnection as TFDConnection;
-    if Assigned(LFDConnection) then
-    begin
-      FInstantFireDACConnector := TInstantFireDACConnector.Create(nil);
-      try
-        FInstantFireDACConnector.BlobStreamFormat := sfXML;
-        FInstantFireDACConnector.Connection := LFDConnection;
-        FInstantFireDACConnector.loginPrompt := False;
-
-      except
-        LFDConnection.Free;
-        FInstantFireDACConnector.Free;
-        raise;
-      end;
-
-    end
-    else
-      raise Exception.Create('Connection not found');
-  end
-  else
-    raise Exception.Create('FireDAC Connection not found');
+  FreeAndNil(FInstantFireDACConnector);
+  FreeAndNil(FConnection);
+  inherited;
 end;
 
 function TInstantKittoConnector.GetInstantFireDACConnector: TInstantFireDACConnector;
 begin
+  EnsureConnection;
   Result := FInstantFireDACConnector;
+end;
+
+procedure TInstantKittoConnector.EnsureConnection;
+begin
+  if not Assigned(FConnection) then
+  begin
+    FConnection := TKConfig.Database; // Crea un'istanza nuova.
+    try
+      if not (FConnection is TEFDBFDConnection) then
+        raise Exception.Create('TKConfig.Database is not a TEFDBFDConnection');
+
+      if not FConnection.IsOpen then
+        // Necessario per configurare la connection interna.
+        FConnection.Open;
+
+      var LFDConnection := FConnection.GetConnection as TFDConnection;
+      FInstantFireDACConnector := TInstantFireDACConnector.Create(nil);
+      try
+        FInstantFireDACConnector.BlobStreamFormat := sfXML;
+        FInstantFireDACConnector.Connection := LFDConnection;
+        FInstantFireDACConnector.LoginPrompt := False;
+      except
+        FreeAndNil(FInstantFireDACConnector);
+        raise;
+      end;
+    except
+      FreeAndNil(FConnection);
+      raise;
+    end;
+  end;
 end;
 
 end.

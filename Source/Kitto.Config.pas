@@ -1,5 +1,5 @@
 {-------------------------------------------------------------------------------
-   Copyright 2012-2021 Ethea S.r.l.
+   Copyright 2012-2023 Ethea S.r.l.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -248,6 +248,8 @@ type
 
     property LanguagePerSession: Boolean read GetLanguagePerSession;
 
+    property UseAltLanguage: Boolean read GetUseAltLanguage;
+
     /// <summary>
     ///   <para>Returns or changes the home path for FOP engine.</para>
     /// </summary>
@@ -334,6 +336,9 @@ begin
     FUserFormatSettings.ThousandSeparator := '.'
   else if LThousandSeparator = ',' then
     FUserFormatSettings.ThousandSeparator := ',';
+
+  //Set also global FormatSettings variable
+  FormatSettings := FUserFormatSettings;
 end;
 
 destructor TKConfig.Destroy;

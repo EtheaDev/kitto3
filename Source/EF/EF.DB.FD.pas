@@ -1,5 +1,5 @@
 {-------------------------------------------------------------------------------
-   Copyright 2012-2021 Ethea S.r.l.
+   Copyright 2012-2023 Ethea S.r.l.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -307,6 +307,7 @@ begin
     FConnection.Params.Values['Database'] := Config.GetExpandedString('Connection/Database');
     FConnection.Params.Values['OSAuthent'] := Config.GetString('Connection/OSAuthent', 'No');
     FConnection.Params.Values['MARS'] := 'Yes';
+    FConnection.Params.Values['ODBCAdvanced'] := 'TrustServerCertificate=yes';
   end
   else if SameText(LDriverID, 'FB') or SameText(LDriverID, 'IB') then
   begin

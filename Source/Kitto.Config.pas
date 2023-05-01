@@ -248,8 +248,6 @@ type
 
     property LanguagePerSession: Boolean read GetLanguagePerSession;
 
-    property UseAltLanguage: Boolean read GetUseAltLanguage;
-
     /// <summary>
     ///   <para>Returns or changes the home path for FOP engine.</para>
     /// </summary>

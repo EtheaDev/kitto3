@@ -15,7 +15,7 @@
      </div>
   ExtraWidth: 400
   LabelWidth: 150
-  ExtraHeight: 210
+  ExtraHeight: 120
   ResetPassword: True
     HrefStyle: color:orange; font-size: medium
   RegisterNewUser: True

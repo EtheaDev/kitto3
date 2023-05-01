@@ -17,19 +17,12 @@ MainTable:
     AllowViewing: True
   Fields:
     CUSTOMER_ID:
-      IsReadOnly: True
     CUSTOMER_NAME:
-      IsReadOnly: True
     ADDRESS:
-      IsReadOnly: True
     CITY:
-      IsReadOnly: True
     PHONE:
-      IsReadOnly: True
     EMAIL:
-      IsReadOnly: True
     STATUS:
-      IsReadOnly: True
   DetailTables:
     Table:
       Model: PROJECT

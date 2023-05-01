@@ -53,7 +53,7 @@ type
     function GetEnableButtonJS: string;
     function GetSubmitJS: string;
     function GetCheckCapsLockJS: string;
-    function ReplaceMacros(const ACode: string): string;
+    //function ReplaceMacros(const ACode: string): string;
     function GetLocalStorageSaveJSCode(const AMode: string; const AAskUser: Boolean): string;
     function GetLocalStorageRetrieveJSCode(const AMode: string; const AAutoLogin: Boolean): string;
     function StartEnableTask: TExtExpression;
@@ -361,12 +361,14 @@ begin
     [FUserName.JSName, FPassword.JSName, FLoginButton.JSName, FLoginButton.JSName, FLoginButton.JSName]);
 end;
 
+(*
 function TKExtLoginPanel.ReplaceMacros(const ACode: string): string;
 begin
   Result := ACode;
   Result := ReplaceStr(Result, '%STATUSBAR%', FStatusBar.JSName);
   Result := ReplaceStr(Result, '%CAPS_ON%', _('Caps On'));
 end;
+*)
 
 function TKExtLoginPanel.GetCheckCapsLockJS: string;
 begin

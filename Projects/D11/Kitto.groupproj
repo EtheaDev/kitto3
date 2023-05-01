@@ -1,4 +1,4 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
         <ProjectGuid>{407D680B-4C31-4351-A29E-D5ED3ECBEDD5}</ProjectGuid>
     </PropertyGroup>
@@ -7,9 +7,6 @@
             <Dependencies/>
         </Projects>
         <Projects Include="..\..\IDE\Projects\D10_4\KittoIDE.dproj">
-            <Dependencies/>
-        </Projects>
-        <Projects Include="..\..\Kide\Projects\D10_4\KIDE3.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -38,23 +35,14 @@
     <Target Name="KittoIDE:Make">
         <MSBuild Projects="..\..\IDE\Projects\D10_4\KittoIDE.dproj" Targets="Make"/>
     </Target>
-    <Target Name="KIDE3">
-        <MSBuild Projects="..\..\Kide\Projects\D10_4\KIDE3.dproj"/>
-    </Target>
-    <Target Name="KIDE3:Clean">
-        <MSBuild Projects="..\..\Kide\Projects\D10_4\KIDE3.dproj" Targets="Clean"/>
-    </Target>
-    <Target Name="KIDE3:Make">
-        <MSBuild Projects="..\..\Kide\Projects\D10_4\KIDE3.dproj" Targets="Make"/>
-    </Target>
     <Target Name="Build">
-        <CallTarget Targets="KittoCore;KittoIDE;KIDE3"/>
+        <CallTarget Targets="KittoCore;KittoIDE"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="KittoCore:Clean;KittoIDE:Clean;KIDE3:Clean"/>
+        <CallTarget Targets="KittoCore:Clean;KittoIDE:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="KittoCore:Make;KittoIDE:Make;KIDE3:Make"/>
+        <CallTarget Targets="KittoCore:Make;KittoIDE:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

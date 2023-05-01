@@ -130,18 +130,9 @@ begin
     if Assigned(LResourceName) then
       Result.SetString('ResourceName', LResourceName.AsString);
 
-    if TKConfig.Instance.UseAltLanguage then
-    begin
-      LSourceDisplayLabelNode := FindNode('DisplayLabel2');
-      if Assigned(LSourceDisplayLabelNode) then
-        Result.SetString('DisplayLabel2', LSourceDisplayLabelNode.AsString);
-    end
-    else
-    begin
-      LSourceDisplayLabelNode := FindNode('DisplayLabel');
-      if Assigned(LSourceDisplayLabelNode) then
-        Result.SetString('DisplayLabel', LSourceDisplayLabelNode.AsString);
-    end;
+    LSourceDisplayLabelNode := FindNode('DisplayLabel');
+    if Assigned(LSourceDisplayLabelNode) then
+      Result.SetString('DisplayLabel', LSourceDisplayLabelNode.AsString);
 
     LSourceControllerNode := FindNode('Controller');
     if Assigned(LSourceControllerNode) then
@@ -154,10 +145,7 @@ begin
     AddDetailTables(LMainTable, LModel);
 
     LFilters := LControllerNode.AddChild('Filters');
-    if TKConfig.Instance.UseAltLanguage then
-      LFilters.SetString('DisplayLabel2', _(Format(_('Search %s'), [LModel.PluralDisplayLabel])))
-    else
-      LFilters.SetString('DisplayLabel', _(Format(_('Search %s'), [LModel.PluralDisplayLabel])));
+    LFilters.SetString('DisplayLabel', _(Format(_('Search %s'), [LModel.PluralDisplayLabel])));
     LFilterItems := LFilters.AddChild('Items');
     LSearchItem := LFilterItems.AddChild('FreeSearch', _('Free Search'));
     LSearchItem.SetString('ExpressionTemplate', BuildSearchString(

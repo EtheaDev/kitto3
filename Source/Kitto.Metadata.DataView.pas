@@ -1,5 +1,5 @@
 {-------------------------------------------------------------------------------
-   Copyright 2012-2021 Ethea S.r.l.
+   Copyright 2012-2023 Ethea S.r.l.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -111,6 +111,7 @@ type
     function GetDBNameOrExpression: string;
     function GetFieldType: TFieldType;
     function GetIsPicture: Boolean;
+    function GetIsAutoAddField: Boolean;
     const URL_PREFIX = '_URL_';
   strict protected
     function GetChildClass(const AName: string): TEFNodeClass; override;
@@ -162,6 +163,12 @@ type
     ///  model field is a reference field.
     /// </summary>
     property IsReference: Boolean read GetIsReference;
+
+    /// <summary>
+    ///  Returns True if the field is a auto-add field, that is if into
+    ///  field name there is a dot that separate Master Table e Referenced Table.
+    /// </summary>
+    property IsAutoAddField: Boolean read GetIsAutoAddField;
 
     /// <summary>
     ///  Optional filter to use when creating select lists. Only applies to
@@ -2193,6 +2200,11 @@ begin
   Result := GetInteger('Size');
   if Result = 0 then
     Result := ModelField.Size;
+end;
+
+function TKViewField.GetIsAutoAddField: Boolean;
+begin
+  Result := pos(AUTO_ADD_FIELD_SEPARATOR, Name) > 0;
 end;
 
 function TKViewField.GetIsBlob: Boolean;

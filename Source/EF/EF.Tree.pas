@@ -1,5 +1,5 @@
 {-------------------------------------------------------------------------------
-   Copyright 2012-2021 Ethea S.r.l.
+   Copyright 2012-2023 Ethea S.r.l.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -181,6 +181,7 @@ type
     function InternalFormatNodeValue(const AForDisplay: Boolean;
       const ANode: TEFNode; const AFormatSettings: TFormatSettings): string; override;
     function GetJSTypeName: string; override;
+    function ValueToString(const AValue: Variant): string; override;
   end;
 
   TEFTimeDataType = class(TEFDateTimeDataTypeBase)
@@ -198,6 +199,7 @@ type
     function SupportsEmptyAsNull: Boolean; override;
     function InternalFormatNodeValue(const AForDisplay: Boolean;
       const ANode: TEFNode; const AFormatSettings: TFormatSettings): string; override;
+    function ValueToString(const AValue: Variant): string; override;
   end;
 
   TEFDateTimeDataType = class(TEFDateTimeDataTypeBase)
@@ -216,6 +218,7 @@ type
     function InternalFormatNodeValue(const AForDisplay: Boolean;
       const ANode: TEFNode; const AFormatSettings: TFormatSettings): string; override;
     function GetJSTypeName: string; override;
+    function ValueToString(const AValue: Variant): string; override;
   end;
 
   TEFBooleanDataType = class(TEFDataType)
@@ -1615,11 +1618,7 @@ end;
 
 function TEFNode.GetAsString: string;
 begin
-  // Since when getDataType became virtual, this is slowing down load
-  // performance by a great deal. Let's try cutting this indirection
-  // (limited to string values) for a while.
-  //Result := DataType.ValueToString(FValue);
-  Result := EFVarToStr(FValue);
+  Result := DataType.ValueToString(FValue);
   {$IFNDEF KIDE}
   if Result.StartsWith('_(') then
     Result := _(Result);
@@ -2065,11 +2064,15 @@ end;
 procedure TEFTree.AddFieldsAsChildren(const AFields: TFields);
 var
   I: Integer;
+  LNode: TEFNode;
 begin
   Assert(Assigned(AFields));
 
   for I := 0 to AFields.Count - 1 do
-    GetNode(AFields[I].FieldName, True).AssignFieldValue(AFields[I]);
+  begin
+    LNode := GetNode(AFields[I].FieldName, True);
+    LNode.AssignFieldValue(AFields[I]);
+  end;
 end;
 
 function TEFTree.AddChild(const AName: string; const AValue: Variant): TEFNode;
@@ -3474,6 +3477,18 @@ begin
   Result := True;
 end;
 
+function TEFDateDataType.ValueToString(const AValue: Variant): string;
+begin
+ if VarIsNull(AValue) or VarIsEmpty(AValue) then
+    Result := ''
+  else
+    try
+      Result := DateToStr(AValue); //Use FormatSettings to convert Date To String
+    except
+      Result := EFVarToStr(AValue);
+    end;
+end;
+
 { TEFTimeDataType }
 
 function TEFTimeDataType.GetDefaultDisplayWidth(const ASize: Integer): Integer;
@@ -3523,6 +3538,18 @@ end;
 function TEFTimeDataType.SupportsEmptyAsNull: Boolean;
 begin
   Result := True;
+end;
+
+function TEFTimeDataType.ValueToString(const AValue: Variant): string;
+begin
+  if VarIsNull(AValue) or VarIsEmpty(AValue) then
+    Result := ''
+  else
+    try
+      Result := TimeToStr(AValue); //Use FormatSettings to convert Date To String
+    except
+      Result := EFVarToStr(AValue);
+    end;
 end;
 
 { TEFDateTimeDataType }
@@ -3582,6 +3609,18 @@ end;
 function TEFDateTimeDataType.SupportsEmptyAsNull: Boolean;
 begin
   Result := True;
+end;
+
+function TEFDateTimeDataType.ValueToString(const AValue: Variant): string;
+begin
+  if VarIsNull(AValue) or VarIsEmpty(AValue) then
+    Result := ''
+  else
+    try
+      Result := DateToStr(AValue); //Use FormatSettings to convert Date To String
+    except
+      Result := EFVarToStr(AValue);
+    end;
 end;
 
 { TEFBooleanDataType }

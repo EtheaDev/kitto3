@@ -1,5 +1,5 @@
 {-------------------------------------------------------------------------------
-   Copyright 2012-2021 Ethea S.r.l.
+   Copyright 2012-2023 Ethea S.r.l.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -681,10 +681,10 @@ type
     /// </returns>
     function LoadRecords(const AStore: TEFTree; const AFilterExpression: string;
       const ASortExpression: string; const AStart: Integer = 0;
-      const ALimit: Integer = 0; const AForEachRecord: TProc<TEFNode> = nil): Integer; virtual; abstract;
+      const ALimit: Integer = 0; const AForEachRecord: TProc<TEFNode> = nil): Integer; virtual;
 
     procedure SaveRecords(const AStore: TEFTree; const APersist: Boolean;
-      const AAfterPersist: TProc; const AUseTransaction: Boolean = True); virtual; abstract;
+      const AAfterPersist: TProc; const AUseTransaction: Boolean = True); virtual;
 
     /// <summary>
     ///  Saves the specified record.
@@ -707,7 +707,7 @@ type
     ///  AAfterPersist.
     /// </remarks>
     procedure SaveRecord(const ARecord: TEFNode; const APersist: Boolean;
-      const AAfterPersist: TProc; const AUseTransaction: Boolean = True); virtual; abstract;
+      const AAfterPersist: TProc; const AUseTransaction: Boolean = True); virtual;
 
     /// <summary>
     ///  Called when a new record is being created in the GUI, after applying
@@ -1038,6 +1038,28 @@ end;
 function TKModel.GetRules: TKRules;
 begin
   Result := GetNode('Rules', True) as TKRules;
+end;
+
+function TKModel.LoadRecords(const AStore: TEFTree; const AFilterExpression,
+  ASortExpression: string; const AStart, ALimit: Integer;
+  const AForEachRecord: TProc<TEFNode>): Integer;
+begin
+  //In descendant classes this method must be implemented
+  Result := 0;
+end;
+
+procedure TKModel.SaveRecord(const ARecord: TEFNode; const APersist: Boolean;
+  const AAfterPersist: TProc; const AUseTransaction: Boolean);
+begin
+  //In descendant classes this method must be implemented
+  ;
+end;
+
+procedure TKModel.SaveRecords(const AStore: TEFTree; const APersist: Boolean;
+  const AAfterPersist: TProc; const AUseTransaction: Boolean);
+begin
+  //In descendant classes this method must be implemented
+  ;
 end;
 
 function TKModel.GetDefaultImageName: string;

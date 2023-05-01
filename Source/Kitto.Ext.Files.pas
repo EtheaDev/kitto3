@@ -1,5 +1,5 @@
 {-------------------------------------------------------------------------------
-   Copyright 2012-2021 Ethea S.r.l.
+   Copyright 2012-2023 Ethea S.r.l.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -157,6 +157,8 @@ type
   strict private
     FTempFileNames: TStrings;
     FUploadFileDialog: TExtPanel;
+    FPostUploadToast: string;
+    FPostUploadError: string;
     function GetContentType: string;
     function GetPath: string;
     function GetMaxUploadSize: Integer;
@@ -174,8 +176,13 @@ type
     ///  name check).
     /// </summary>
     procedure ProcessUploadedFile(const AFile: TAbstractWebRequestFile); virtual;
-
     procedure InitDefaults; override;
+    /// <summary>
+    ///   If ProcessUploadedFile calls this method with a message, the message
+    ///   is displayed in a toast in PostUpload. This indirection is required
+    ///   because ProcessUploadedFile cannot produce JS code.
+    /// </summary>
+    procedure SetPostUploadToast(const AMessage: string);
   public
     destructor Destroy; override;
     /// <summary>
@@ -203,6 +210,7 @@ uses
   , JSON
   , Masks
   , EF.Localization
+  , Kitto.Types
   , Kitto.Web.Application
   , Kitto.Web.Request
   , Kitto.Web.Response
@@ -469,10 +477,19 @@ begin
     end;
 
     { TODO : Check the file against limitations such as type and size}
-    ProcessUploadedFile(TKWebRequest.Current.Files[0]);
+    FPostUploadToast := '';
+    FPostUploadError := '';
+    try
+      ProcessUploadedFile(TKWebRequest.Current.Files[0]);
+    except
+      on E: Exception do
+      begin
+        LResult.AddPair('success', TJSONFalse.Create);
+        FPostUploadError := E.Message;
+      end;
+    end;
     LResult.AddPair('success', TJSONTrue.Create);
     TKWebResponse.Current.Items.AddJSON(LResult.ToJSON);
-    AfterExecuteTool;
   finally
     FreeAndNil(LResult);
   end;
@@ -516,7 +533,15 @@ end;
 
 procedure TKExtUploadFileController.PostUpload;
 begin
+  if FPostUploadError <> '' then
+    raise EKError.Create(FPostUploadError);
+
   FUploadFileDialog.Close;
+
+  if FPostUploadToast <> '' then
+    TKWebApplication.Current.Toast(FPostUploadToast);
+
+  AfterExecuteTool;
 end;
 
 procedure TKExtUploadFileController.ProcessUploadedFile(const AFile: TAbstractWebRequestFile);
@@ -529,6 +554,11 @@ begin
   finally
     FreeAndNil(LFileStream);
   end;
+end;
+
+procedure TKExtUploadFileController.SetPostUploadToast(const AMessage: string);
+begin
+  FPostUploadToast := AMessage;
 end;
 
 initialization

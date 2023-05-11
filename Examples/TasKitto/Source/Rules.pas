@@ -24,6 +24,12 @@ type
     procedure BeforeAddOrUpdate(const ARecord: TKRecord); override;
   end;
 
+  TActivityRules = class(TKRuleImpl)
+  public
+    procedure NewRecord(const ARecord: TKRecord); override;
+    procedure AfterFieldChange(const AField: TKField; const AOldValue, ANewValue: Variant); override;
+  end;
+
   function GenerateRandomPassword: string;
 
   function GetBCryptedString(const AValue: string): string;
@@ -267,12 +273,45 @@ begin
   Result := TBCrypt.HashPassword(AValue,13);
 end;
 
+{ TActivityRules }
+
+procedure TActivityRules.AfterFieldChange(const AField: TKField;
+  const AOldValue, ANewValue: Variant);
+var
+  LEndTimeField: TKField;
+  Hour, Min, Sec, MSec: word;
+begin
+  inherited;
+  if AField.Name = 'START_TIME' then
+  begin
+    LEndTimeField := AField.ParentRecord.FieldByName('END_TIME');
+    if LEndTimeField.AsTime <= AField.AsTime then
+    begin
+      //By default End Time 1 hour after start Time
+      DecodeTime(AField.AsTime, Hour, Min, Sec, MSec);
+      LEndTimeField.AsTime :=  EncodeTime(Hour+1, Min, 0, 0);
+    end;
+  end;
+end;
+
+procedure TActivityRules.NewRecord(const ARecord: TKRecord);
+var
+  LStatusField: TKField;
+begin
+  inherited;
+  LStatusField :=  ARecord.FieldByName('STATUS');
+  LStatusField.AsString := 'Inserted';
+  LStatusField.SetTransientProperty('Enabled', False);
+end;
+
 initialization
   TKRuleImplRegistry.Instance.RegisterClass(TDefaultPhaseStartTime.GetClassId, TDefaultPhaseStartTime);
   TKRuleImplRegistry.Instance.RegisterClass(TKKittoUserCheck.GetClassId, TKKittoUserCheck);
+  TKRuleImplRegistry.Instance.RegisterClass(TActivityRules.GetClassId, TActivityRules);
 
 finalization
   TKRuleImplRegistry.Instance.UnregisterClass(TDefaultPhaseStartTime.GetClassId);
   TKRuleImplRegistry.Instance.UnregisterClass(TKKittoUserCheck.GetClassId);
+  TKRuleImplRegistry.Instance.UnregisterClass(TActivityRules.GetClassId);
 
 end.

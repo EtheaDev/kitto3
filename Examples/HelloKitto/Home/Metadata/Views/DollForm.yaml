@@ -20,7 +20,6 @@ MainTable:
       DisplayLabel: _(Mom's Phone)
     Aspect:
     Picture:
-    Picture_File:
   Controller:
     Form:
       Layout: Dolls_Form

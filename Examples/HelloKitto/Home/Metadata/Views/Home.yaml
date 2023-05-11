@@ -1,4 +1,4 @@
-﻿DisplayLabel: _(%Config:AppTitle%) %APP_VERSION%
+﻿DisplayLabel: %Config:AppTitle% %APP_VERSION%
 Controller: BorderPanel
   DisplayMode: FullScreen
   Width: 1200
@@ -34,5 +34,5 @@ Controller: BorderPanel
 
   SouthView:
     Controller: StatusBar
-          Text: Connected to: %Config:DefaultDatabaseName% - _(User: %Auth:UserName%)
+      Text: Connected to: %Config:DefaultDatabaseName% - _(User: %Auth:UserName%)
     ImageName: user

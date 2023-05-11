@@ -29,6 +29,8 @@ Fields:
   START_TIME: Time
     NotifyChange: True
     Hint: Start
+    Rules:
+      ActivityRules:    
   END_TIME: Time
     Hint: End
   STATUS: String(12)
@@ -49,6 +51,7 @@ Fields:
         else CAST(DATEDIFF(millisecond, {Q}START_TIME, {Q}END_TIME) / CAST(3600000 AS FLOAT) AS DECIMAL(8,4))
       end
 Rules:
+  ActivityRules:
   EnforceRange:
     From: START_TIME
     To: END_TIME

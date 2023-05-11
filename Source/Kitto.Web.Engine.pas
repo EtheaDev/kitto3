@@ -205,7 +205,7 @@ begin
             '<head><title>Web Server Application</title></head>' +
             '<body>Unknown request: ' + ARequest.PathInfo + '</body>' +
             '</html>';
-          AResponse.StatusCode := 500;
+          AResponse.StatusCode := 404;
           AResponse.HTTPRequest.URL.Empty;
           AResponse.SendResponse;
         end;

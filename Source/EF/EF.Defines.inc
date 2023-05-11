@@ -22,7 +22,7 @@
   {$DEFINE D27+}
 {$ENDIF}
 
-// 11.0 "Alexandria"
+// 11 "Alexandria"
 {$IFDEF VER350}
   {$DEFINE D7+}
   {$DEFINE D9+}
